@@ -27,4 +27,5 @@ https://github.com/freshking/DynamicGraphView
 https://github.com/WhiteHouse/wh-app-ios
 https://github.com/core-plot
 https://github.com/honcheng/iOSPlot/tree/master/iOSPlot
+https://github.com/ReetuRaj/MIMChart-Library
 
