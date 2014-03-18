@@ -25,5 +25,6 @@ https://github.com/tkzic/audiograph
 Open Source Visuals/Other Apps:
 https://github.com/freshking/DynamicGraphView
 https://github.com/WhiteHouse/wh-app-ios
-
+https://github.com/core-plot
+https://github.com/honcheng/iOSPlot/tree/master/iOSPlot
 
