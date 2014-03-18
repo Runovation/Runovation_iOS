@@ -15,4 +15,10 @@ https://github.com/TheAmazingAudioEngine/TheAmazingAudioEngine
 Core Audio Sample Code:
 https://developer.apple.com/library/mac/navigation/#section=Resource%20Types&topic=Sample%20Code
 
+Open Source iOS applications:
+http://en.wikipedia.org/wiki/List_of_free_and_open-source_iOS_applications
+
+Open Source Audio Apps:
+https://github.com/tkzic/audiograph
+
 
