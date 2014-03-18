@@ -17,6 +17,7 @@ https://developer.apple.com/library/mac/navigation/#section=Resource%20Types&top
 
 Open Source iOS applications:
 http://en.wikipedia.org/wiki/List_of_free_and_open-source_iOS_applications
+http://maniacdev.com/2010/06/35-open-source-iphone-app-store-apps-updated-with-10-new-apps
 
 Open Source Audio Apps:
 https://github.com/tkzic/audiograph
