@@ -26,4 +26,9 @@ Open Source Visuals/Other Apps:
 https://github.com/freshking/DynamicGraphView
 https://github.com/WhiteHouse/wh-app-ios
 
+==============
+QUOTES:
+==============
 
+Devon: "What was I going to do? Oh! Browse the iOSProgramming subreddit!"
+Keenan: "It's a brave new age of reddit based development..."
