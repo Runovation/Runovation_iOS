@@ -22,4 +22,8 @@ http://maniacdev.com/2010/06/35-open-source-iphone-app-store-apps-updated-with-1
 Open Source Audio Apps:
 https://github.com/tkzic/audiograph
 
+Open Source Visuals/Other Apps:
+https://github.com/freshking/DynamicGraphView
+https://github.com/WhiteHouse/wh-app-ios
+
 
