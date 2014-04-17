@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Runovation.xcodeproj">
+      location = "self:Runovation_iOS.xcodeproj">
    </FileRef>
 </Workspace>

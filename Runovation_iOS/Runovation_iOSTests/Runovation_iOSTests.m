@@ -1,18 +1,18 @@
 //
-//  RunovationTests.m
-//  RunovationTests
+//  Runovation_iOSTests.m
+//  Runovation_iOSTests
 //
-//  Created by Devon Wells on 3/18/14.
+//  Created by timaramac on 4/17/14.
 //  Copyright (c) 2014 Runovation. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface RunovationTests : XCTestCase
+@interface Runovation_iOSTests : XCTestCase
 
 @end
 
-@implementation RunovationTests
+@implementation Runovation_iOSTests
 
 - (void)setUp
 {

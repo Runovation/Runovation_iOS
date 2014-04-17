@@ -1,8 +1,8 @@
 //
 //  AppDelegate.h
-//  Runovation
+//  Runovation_iOS
 //
-//  Created by Devon Wells on 3/18/14.
+//  Created by timaramac on 4/17/14.
 //  Copyright (c) 2014 Runovation. All rights reserved.
 //
 
