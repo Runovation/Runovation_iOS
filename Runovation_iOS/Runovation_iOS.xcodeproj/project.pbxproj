@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 45;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,8 @@
 		327EACB619009FC90013BD18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327EAC9E19009FC90013BD18 /* UIKit.framework */; };
 		327EACBE19009FC90013BD18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 327EACBC19009FC90013BD18 /* InfoPlist.strings */; };
 		327EACC019009FC90013BD18 /* Runovation_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 327EACBF19009FC90013BD18 /* Runovation_iOSTests.m */; };
+		328595AB1913130200367617 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 328595AA1913130200367617 /* Default.png */; };
+		328595AD191317A600367617 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 328595AC191317A600367617 /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,12 +44,14 @@
 		327EACA819009FC90013BD18 /* Runovation_iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runovation_iOS-Prefix.pch"; sourceTree = "<group>"; };
 		327EACA919009FC90013BD18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		327EACAA19009FC90013BD18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		327EACAC19009FC90013BD18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		327EACAC19009FC90013BD18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images.xcassets; sourceTree = "<group>"; };
 		327EACB219009FC90013BD18 /* Runovation_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Runovation_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		327EACB319009FC90013BD18 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		327EACBB19009FC90013BD18 /* Runovation_iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Runovation_iOSTests-Info.plist"; sourceTree = "<group>"; };
 		327EACBD19009FC90013BD18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		327EACBF19009FC90013BD18 /* Runovation_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Runovation_iOSTests.m; sourceTree = "<group>"; };
+		328595AA1913130200367617 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../../../../../../Users/timaramac/Desktop/Default.png; sourceTree = "<group>"; };
+		328595AC191317A600367617 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../../Parse.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,7 @@
 			files = (
 				327EAC9D19009FC90013BD18 /* CoreGraphics.framework in Frameworks */,
 				327EAC9F19009FC90013BD18 /* UIKit.framework in Frameworks */,
+				328595AD191317A600367617 /* Parse.framework in Frameworks */,
 				327EAC9B19009FC90013BD18 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,6 +101,7 @@
 		327EAC9919009FC90013BD18 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				328595AC191317A600367617 /* Parse.framework */,
 				327EAC9A19009FC90013BD18 /* Foundation.framework */,
 				327EAC9C19009FC90013BD18 /* CoreGraphics.framework */,
 				327EAC9E19009FC90013BD18 /* UIKit.framework */,
@@ -107,6 +113,7 @@
 		327EACA019009FC90013BD18 /* Runovation_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				328595AA1913130200367617 /* Default.png */,
 				327EACA919009FC90013BD18 /* AppDelegate.h */,
 				327EACAA19009FC90013BD18 /* AppDelegate.m */,
 				327EACAC19009FC90013BD18 /* Images.xcassets */,
@@ -197,7 +204,7 @@
 				};
 			};
 			buildConfigurationList = 327EAC9219009FC90013BD18 /* Build configuration list for PBXProject "Runovation_iOS" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -220,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				327EACA519009FC90013BD18 /* InfoPlist.strings in Resources */,
+				328595AB1913130200367617 /* Default.png in Resources */,
 				327EACAD19009FC90013BD18 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,10 +367,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Volumes/User,
+					A/Eli,
+					Stine,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Runovation_iOS/Runovation_iOS-Prefix.pch";
 				INFOPLIST_FILE = "Runovation_iOS/Runovation_iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -372,10 +389,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Volumes/User,
+					A/Eli,
+					Stine,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Runovation_iOS/Runovation_iOS-Prefix.pch";
 				INFOPLIST_FILE = "Runovation_iOS/Runovation_iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -439,6 +465,7 @@
 				327EACC519009FC90013BD18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		327EACC619009FC90013BD18 /* Build configuration list for PBXNativeTarget "Runovation_iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +474,7 @@
 				327EACC819009FC90013BD18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

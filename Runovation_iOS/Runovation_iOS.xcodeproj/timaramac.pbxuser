@@ -1,0 +1,62 @@
+// !$*UTF8*$!
+{
+	327A8CAF19130A6800C5904D /* Runovation_iOS */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Runovation_iOS;
+		sourceDirectories = (
+		);
+	};
+	327A8CBE19130A6900C5904D /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	327A8CBF19130A6900C5904D /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	327EAC8F19009FC90013BD18 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 327A8CAF19130A6800C5904D /* Runovation_iOS */;
+		activeTarget = 327EAC9619009FC90013BD18 /* Runovation_iOS */;
+		codeSenseManager = 327A8CBF19130A6900C5904D /* Code sense */;
+		executables = (
+			327A8CAF19130A6800C5904D /* Runovation_iOS */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 420678248;
+			PBXWorkspaceStateSaveDate = 420678248;
+		};
+		sourceControlManager = 327A8CBE19130A6900C5904D /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	327EAC9619009FC90013BD18 /* Runovation_iOS */ = {
+		activeExec = 0;
+		executables = (
+			327A8CAF19130A6800C5904D /* Runovation_iOS */,
+		);
+	};
+	327EACB119009FC90013BD18 /* Runovation_iOSTests */ = {
+		activeExec = 0;
+	};
+}
