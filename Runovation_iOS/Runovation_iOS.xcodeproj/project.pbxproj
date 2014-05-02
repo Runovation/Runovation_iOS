@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		326CDE6919131FBC0061E215 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 326CDE6819131FBC0061E215 /* Storyboard.storyboard */; };
+		326CDE6B191321EF0061E215 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CDE6A191321EE0061E215 /* Parse.framework */; };
+		326CDE6D191322E50061E215 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CDE6C191322E50061E215 /* FacebookSDK.framework */; };
+		326CDE6F191322F10061E215 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CDE6E191322F10061E215 /* Accounts.framework */; };
+		326CDE71191322F70061E215 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CDE70191322F70061E215 /* AdSupport.framework */; };
+		326CDE77191323130061E215 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CDE72191323130061E215 /* Social.framework */; };
+		326CDE78191323130061E215 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CDE73191323130061E215 /* CoreLocation.framework */; };
+		326CDE79191323130061E215 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CDE74191323130061E215 /* StoreKit.framework */; };
+		326CDE7A191323130061E215 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CDE75191323130061E215 /* AudioToolbox.framework */; };
+		326CDE7B191323130061E215 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CDE76191323130061E215 /* CFNetwork.framework */; };
+		326CDE7F191323280061E215 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CDE7C191323280061E215 /* MobileCoreServices.framework */; };
+		326CDE80191323280061E215 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CDE7D191323280061E215 /* Security.framework */; };
+		326CDE81191323280061E215 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CDE7E191323280061E215 /* SystemConfiguration.framework */; };
+		326CDE831913232E0061E215 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CDE821913232E0061E215 /* QuartzCore.framework */; };
+		326CDE85191323380061E215 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CDE84191323380061E215 /* libsqlite3.0.dylib */; };
+		326CDE871913233D0061E215 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CDE861913233D0061E215 /* libz.1.1.3.dylib */; };
+		326CDE8A1913235F0061E215 /* DemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 326CDE891913235F0061E215 /* DemoTableViewController.m */; };
 		327EAC9B19009FC90013BD18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327EAC9A19009FC90013BD18 /* Foundation.framework */; };
 		327EAC9D19009FC90013BD18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327EAC9C19009FC90013BD18 /* CoreGraphics.framework */; };
 		327EAC9F19009FC90013BD18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327EAC9E19009FC90013BD18 /* UIKit.framework */; };
@@ -20,7 +37,6 @@
 		327EACBE19009FC90013BD18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 327EACBC19009FC90013BD18 /* InfoPlist.strings */; };
 		327EACC019009FC90013BD18 /* Runovation_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 327EACBF19009FC90013BD18 /* Runovation_iOSTests.m */; };
 		328595AB1913130200367617 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 328595AA1913130200367617 /* Default.png */; };
-		328595AD191317A600367617 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 328595AC191317A600367617 /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		326CDE6819131FBC0061E215 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		326CDE6A191321EE0061E215 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../Parse.framework; sourceTree = "<group>"; };
+		326CDE6C191322E50061E215 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = "../ParsePlatform-LoginAndSignUpTutorial-0710943/FacebookSDK.framework"; sourceTree = "<group>"; };
+		326CDE6E191322F10061E215 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		326CDE70191322F70061E215 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		326CDE72191323130061E215 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		326CDE73191323130061E215 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		326CDE74191323130061E215 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		326CDE75191323130061E215 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		326CDE76191323130061E215 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		326CDE7C191323280061E215 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		326CDE7D191323280061E215 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		326CDE7E191323280061E215 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		326CDE821913232E0061E215 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		326CDE84191323380061E215 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		326CDE861913233D0061E215 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		326CDE881913235F0061E215 /* DemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoTableViewController.h; path = "../../ParsePlatform-LoginAndSignUpTutorial-0710943/LogInAndSignUpDemo/DemoTableViewController.h"; sourceTree = "<group>"; };
+		326CDE891913235F0061E215 /* DemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoTableViewController.m; path = "../../ParsePlatform-LoginAndSignUpTutorial-0710943/LogInAndSignUpDemo/DemoTableViewController.m"; sourceTree = "<group>"; };
 		327EAC9719009FC90013BD18 /* Runovation_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runovation_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		327EAC9A19009FC90013BD18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		327EAC9C19009FC90013BD18 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -51,7 +85,6 @@
 		327EACBD19009FC90013BD18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		327EACBF19009FC90013BD18 /* Runovation_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Runovation_iOSTests.m; sourceTree = "<group>"; };
 		328595AA1913130200367617 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../../../../../../Users/timaramac/Desktop/Default.png; sourceTree = "<group>"; };
-		328595AC191317A600367617 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../../Parse.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +92,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				326CDE831913232E0061E215 /* QuartzCore.framework in Frameworks */,
 				327EAC9D19009FC90013BD18 /* CoreGraphics.framework in Frameworks */,
+				326CDE81191323280061E215 /* SystemConfiguration.framework in Frameworks */,
+				326CDE6D191322E50061E215 /* FacebookSDK.framework in Frameworks */,
+				326CDE6F191322F10061E215 /* Accounts.framework in Frameworks */,
+				326CDE7A191323130061E215 /* AudioToolbox.framework in Frameworks */,
+				326CDE80191323280061E215 /* Security.framework in Frameworks */,
+				326CDE78191323130061E215 /* CoreLocation.framework in Frameworks */,
+				326CDE85191323380061E215 /* libsqlite3.0.dylib in Frameworks */,
 				327EAC9F19009FC90013BD18 /* UIKit.framework in Frameworks */,
-				328595AD191317A600367617 /* Parse.framework in Frameworks */,
+				326CDE871913233D0061E215 /* libz.1.1.3.dylib in Frameworks */,
+				326CDE7B191323130061E215 /* CFNetwork.framework in Frameworks */,
+				326CDE6B191321EF0061E215 /* Parse.framework in Frameworks */,
+				326CDE7F191323280061E215 /* MobileCoreServices.framework in Frameworks */,
 				327EAC9B19009FC90013BD18 /* Foundation.framework in Frameworks */,
+				326CDE79191323130061E215 /* StoreKit.framework in Frameworks */,
+				326CDE71191322F70061E215 /* AdSupport.framework in Frameworks */,
+				326CDE77191323130061E215 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +129,7 @@
 		327EAC8E19009FC90013BD18 = {
 			isa = PBXGroup;
 			children = (
+				326CDE6819131FBC0061E215 /* Storyboard.storyboard */,
 				327EACA019009FC90013BD18 /* Runovation_iOS */,
 				327EACB919009FC90013BD18 /* Runovation_iOSTests */,
 				327EAC9919009FC90013BD18 /* Frameworks */,
@@ -101,7 +149,21 @@
 		327EAC9919009FC90013BD18 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				328595AC191317A600367617 /* Parse.framework */,
+				326CDE861913233D0061E215 /* libz.1.1.3.dylib */,
+				326CDE84191323380061E215 /* libsqlite3.0.dylib */,
+				326CDE821913232E0061E215 /* QuartzCore.framework */,
+				326CDE7C191323280061E215 /* MobileCoreServices.framework */,
+				326CDE7D191323280061E215 /* Security.framework */,
+				326CDE7E191323280061E215 /* SystemConfiguration.framework */,
+				326CDE72191323130061E215 /* Social.framework */,
+				326CDE73191323130061E215 /* CoreLocation.framework */,
+				326CDE74191323130061E215 /* StoreKit.framework */,
+				326CDE75191323130061E215 /* AudioToolbox.framework */,
+				326CDE76191323130061E215 /* CFNetwork.framework */,
+				326CDE70191322F70061E215 /* AdSupport.framework */,
+				326CDE6E191322F10061E215 /* Accounts.framework */,
+				326CDE6C191322E50061E215 /* FacebookSDK.framework */,
+				326CDE6A191321EE0061E215 /* Parse.framework */,
 				327EAC9A19009FC90013BD18 /* Foundation.framework */,
 				327EAC9C19009FC90013BD18 /* CoreGraphics.framework */,
 				327EAC9E19009FC90013BD18 /* UIKit.framework */,
@@ -116,6 +178,8 @@
 				328595AA1913130200367617 /* Default.png */,
 				327EACA919009FC90013BD18 /* AppDelegate.h */,
 				327EACAA19009FC90013BD18 /* AppDelegate.m */,
+				326CDE881913235F0061E215 /* DemoTableViewController.h */,
+				326CDE891913235F0061E215 /* DemoTableViewController.m */,
 				327EACAC19009FC90013BD18 /* Images.xcassets */,
 				327EACA119009FC90013BD18 /* Supporting Files */,
 			);
@@ -227,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				327EACA519009FC90013BD18 /* InfoPlist.strings in Resources */,
+				326CDE6919131FBC0061E215 /* Storyboard.storyboard in Resources */,
 				328595AB1913130200367617 /* Default.png in Resources */,
 				327EACAD19009FC90013BD18 /* Images.xcassets in Resources */,
 			);
@@ -247,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				326CDE8A1913235F0061E215 /* DemoTableViewController.m in Sources */,
 				327EACAB19009FC90013BD18 /* AppDelegate.m in Sources */,
 				327EACA719009FC90013BD18 /* main.m in Sources */,
 			);
@@ -373,6 +439,12 @@
 					/Volumes/User,
 					A/Eli,
 					Stine,
+					/Volumes/User,
+					A/Eli,
+					Stine/Runovation_iOS,
+					/Volumes/User,
+					A/Eli,
+					"Stine/Runovation_iOS/ParsePlatform-LoginAndSignUpTutorial-0710943",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Runovation_iOS/Runovation_iOS-Prefix.pch";
@@ -395,6 +467,12 @@
 					/Volumes/User,
 					A/Eli,
 					Stine,
+					/Volumes/User,
+					A/Eli,
+					Stine/Runovation_iOS,
+					/Volumes/User,
+					A/Eli,
+					"Stine/Runovation_iOS/ParsePlatform-LoginAndSignUpTutorial-0710943",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Runovation_iOS/Runovation_iOS-Prefix.pch";
