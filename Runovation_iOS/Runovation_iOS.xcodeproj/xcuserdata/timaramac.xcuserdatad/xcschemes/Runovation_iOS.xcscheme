@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "327EAC9619009FC90013BD18"
+               BlueprintIdentifier = "321D21A719197B620043C6E2"
                BuildableName = "Runovation_iOS.app"
                BlueprintName = "Runovation_iOS"
                ReferencedContainer = "container:Runovation_iOS.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "327EACB119009FC90013BD18"
+               BlueprintIdentifier = "321D21C219197B620043C6E2"
                BuildableName = "Runovation_iOSTests.xctest"
                BlueprintName = "Runovation_iOSTests"
                ReferencedContainer = "container:Runovation_iOS.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "327EAC9619009FC90013BD18"
+            BlueprintIdentifier = "321D21A719197B620043C6E2"
             BuildableName = "Runovation_iOS.app"
             BlueprintName = "Runovation_iOS"
             ReferencedContainer = "container:Runovation_iOS.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "327EAC9619009FC90013BD18"
+            BlueprintIdentifier = "321D21A719197B620043C6E2"
             BuildableName = "Runovation_iOS.app"
             BlueprintName = "Runovation_iOS"
             ReferencedContainer = "container:Runovation_iOS.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "327EAC9619009FC90013BD18"
+            BlueprintIdentifier = "321D21A719197B620043C6E2"
             BuildableName = "Runovation_iOS.app"
             BlueprintName = "Runovation_iOS"
             ReferencedContainer = "container:Runovation_iOS.xcodeproj">

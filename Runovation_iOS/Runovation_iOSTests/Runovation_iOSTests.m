@@ -2,8 +2,8 @@
 //  Runovation_iOSTests.m
 //  Runovation_iOSTests
 //
-//  Created by timaramac on 4/17/14.
-//  Copyright (c) 2014 Runovation. All rights reserved.
+//  Created by timaramac on 5/6/14.
+//  Copyright (c) 2014 runovationfitness. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

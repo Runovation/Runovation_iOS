@@ -3,214 +3,149 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		326CDE6919131FBC0061E215 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 326CDE6819131FBC0061E215 /* Storyboard.storyboard */; };
-		326CDE6B191321EF0061E215 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CDE6A191321EE0061E215 /* Parse.framework */; };
-		326CDE6D191322E50061E215 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CDE6C191322E50061E215 /* FacebookSDK.framework */; };
-		326CDE6F191322F10061E215 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CDE6E191322F10061E215 /* Accounts.framework */; };
-		326CDE71191322F70061E215 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CDE70191322F70061E215 /* AdSupport.framework */; };
-		326CDE77191323130061E215 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CDE72191323130061E215 /* Social.framework */; };
-		326CDE78191323130061E215 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CDE73191323130061E215 /* CoreLocation.framework */; };
-		326CDE79191323130061E215 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CDE74191323130061E215 /* StoreKit.framework */; };
-		326CDE7A191323130061E215 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CDE75191323130061E215 /* AudioToolbox.framework */; };
-		326CDE7B191323130061E215 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CDE76191323130061E215 /* CFNetwork.framework */; };
-		326CDE7F191323280061E215 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CDE7C191323280061E215 /* MobileCoreServices.framework */; };
-		326CDE80191323280061E215 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CDE7D191323280061E215 /* Security.framework */; };
-		326CDE81191323280061E215 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CDE7E191323280061E215 /* SystemConfiguration.framework */; };
-		326CDE831913232E0061E215 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CDE821913232E0061E215 /* QuartzCore.framework */; };
-		326CDE85191323380061E215 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CDE84191323380061E215 /* libsqlite3.0.dylib */; };
-		326CDE871913233D0061E215 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 326CDE861913233D0061E215 /* libz.1.1.3.dylib */; };
-		326CDE8A1913235F0061E215 /* DemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 326CDE891913235F0061E215 /* DemoTableViewController.m */; };
-		327EAC9B19009FC90013BD18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327EAC9A19009FC90013BD18 /* Foundation.framework */; };
-		327EAC9D19009FC90013BD18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327EAC9C19009FC90013BD18 /* CoreGraphics.framework */; };
-		327EAC9F19009FC90013BD18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327EAC9E19009FC90013BD18 /* UIKit.framework */; };
-		327EACA519009FC90013BD18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 327EACA319009FC90013BD18 /* InfoPlist.strings */; };
-		327EACA719009FC90013BD18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 327EACA619009FC90013BD18 /* main.m */; };
-		327EACAB19009FC90013BD18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 327EACAA19009FC90013BD18 /* AppDelegate.m */; };
-		327EACAD19009FC90013BD18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 327EACAC19009FC90013BD18 /* Images.xcassets */; };
-		327EACB419009FC90013BD18 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327EACB319009FC90013BD18 /* XCTest.framework */; };
-		327EACB519009FC90013BD18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327EAC9A19009FC90013BD18 /* Foundation.framework */; };
-		327EACB619009FC90013BD18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327EAC9E19009FC90013BD18 /* UIKit.framework */; };
-		327EACBE19009FC90013BD18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 327EACBC19009FC90013BD18 /* InfoPlist.strings */; };
-		327EACC019009FC90013BD18 /* Runovation_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 327EACBF19009FC90013BD18 /* Runovation_iOSTests.m */; };
-		328595AB1913130200367617 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 328595AA1913130200367617 /* Default.png */; };
+		321D21AC19197B620043C6E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321D21AB19197B620043C6E2 /* Foundation.framework */; };
+		321D21AE19197B620043C6E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321D21AD19197B620043C6E2 /* CoreGraphics.framework */; };
+		321D21B019197B620043C6E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321D21AF19197B620043C6E2 /* UIKit.framework */; };
+		321D21B619197B620043C6E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 321D21B419197B620043C6E2 /* InfoPlist.strings */; };
+		321D21B819197B620043C6E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 321D21B719197B620043C6E2 /* main.m */; };
+		321D21BC19197B620043C6E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 321D21BB19197B620043C6E2 /* AppDelegate.m */; };
+		321D21BE19197B620043C6E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 321D21BD19197B620043C6E2 /* Images.xcassets */; };
+		321D21C519197B620043C6E2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321D21C419197B620043C6E2 /* XCTest.framework */; };
+		321D21C619197B620043C6E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321D21AB19197B620043C6E2 /* Foundation.framework */; };
+		321D21C719197B630043C6E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321D21AF19197B620043C6E2 /* UIKit.framework */; };
+		321D21CF19197B630043C6E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 321D21CD19197B630043C6E2 /* InfoPlist.strings */; };
+		321D21D119197B630043C6E2 /* Runovation_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 321D21D019197B630043C6E2 /* Runovation_iOSTests.m */; };
+		321D21DB19197B7D0043C6E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 321D21DA19197B7D0043C6E2 /* Main.storyboard */; };
+		32C4FFBE1919D2FD00B8FC4C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C4FFBD1919D2FD00B8FC4C /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		327EACB719009FC90013BD18 /* PBXContainerItemProxy */ = {
+		321D21C819197B630043C6E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 327EAC8F19009FC90013BD18 /* Project object */;
+			containerPortal = 321D21A019197B620043C6E2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 327EAC9619009FC90013BD18;
+			remoteGlobalIDString = 321D21A719197B620043C6E2;
 			remoteInfo = Runovation_iOS;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		326CDE6819131FBC0061E215 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
-		326CDE6A191321EE0061E215 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../Parse.framework; sourceTree = "<group>"; };
-		326CDE6C191322E50061E215 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = "../ParsePlatform-LoginAndSignUpTutorial-0710943/FacebookSDK.framework"; sourceTree = "<group>"; };
-		326CDE6E191322F10061E215 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
-		326CDE70191322F70061E215 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
-		326CDE72191323130061E215 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
-		326CDE73191323130061E215 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		326CDE74191323130061E215 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		326CDE75191323130061E215 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		326CDE76191323130061E215 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		326CDE7C191323280061E215 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		326CDE7D191323280061E215 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		326CDE7E191323280061E215 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		326CDE821913232E0061E215 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		326CDE84191323380061E215 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
-		326CDE861913233D0061E215 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
-		326CDE881913235F0061E215 /* DemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoTableViewController.h; path = "../../ParsePlatform-LoginAndSignUpTutorial-0710943/LogInAndSignUpDemo/DemoTableViewController.h"; sourceTree = "<group>"; };
-		326CDE891913235F0061E215 /* DemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoTableViewController.m; path = "../../ParsePlatform-LoginAndSignUpTutorial-0710943/LogInAndSignUpDemo/DemoTableViewController.m"; sourceTree = "<group>"; };
-		327EAC9719009FC90013BD18 /* Runovation_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runovation_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		327EAC9A19009FC90013BD18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		327EAC9C19009FC90013BD18 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		327EAC9E19009FC90013BD18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		327EACA219009FC90013BD18 /* Runovation_iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Runovation_iOS-Info.plist"; sourceTree = "<group>"; };
-		327EACA419009FC90013BD18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		327EACA619009FC90013BD18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		327EACA819009FC90013BD18 /* Runovation_iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runovation_iOS-Prefix.pch"; sourceTree = "<group>"; };
-		327EACA919009FC90013BD18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		327EACAA19009FC90013BD18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		327EACAC19009FC90013BD18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images.xcassets; sourceTree = "<group>"; };
-		327EACB219009FC90013BD18 /* Runovation_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Runovation_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		327EACB319009FC90013BD18 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		327EACBB19009FC90013BD18 /* Runovation_iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Runovation_iOSTests-Info.plist"; sourceTree = "<group>"; };
-		327EACBD19009FC90013BD18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		327EACBF19009FC90013BD18 /* Runovation_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Runovation_iOSTests.m; sourceTree = "<group>"; };
-		328595AA1913130200367617 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../../../../../../Users/timaramac/Desktop/Default.png; sourceTree = "<group>"; };
+		321D21A819197B620043C6E2 /* Runovation_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runovation_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		321D21AB19197B620043C6E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		321D21AD19197B620043C6E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		321D21AF19197B620043C6E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		321D21B319197B620043C6E2 /* Runovation_iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Runovation_iOS-Info.plist"; sourceTree = "<group>"; };
+		321D21B519197B620043C6E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		321D21B719197B620043C6E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		321D21B919197B620043C6E2 /* Runovation_iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runovation_iOS-Prefix.pch"; sourceTree = "<group>"; };
+		321D21BA19197B620043C6E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		321D21BB19197B620043C6E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		321D21BD19197B620043C6E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		321D21C319197B620043C6E2 /* Runovation_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Runovation_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		321D21C419197B620043C6E2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		321D21CC19197B630043C6E2 /* Runovation_iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Runovation_iOSTests-Info.plist"; sourceTree = "<group>"; };
+		321D21CE19197B630043C6E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		321D21D019197B630043C6E2 /* Runovation_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Runovation_iOSTests.m; sourceTree = "<group>"; };
+		321D21DA19197B7D0043C6E2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		32C4FFBD1919D2FD00B8FC4C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../../Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		327EAC9419009FC90013BD18 /* Frameworks */ = {
+		321D21A519197B620043C6E2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				326CDE831913232E0061E215 /* QuartzCore.framework in Frameworks */,
-				327EAC9D19009FC90013BD18 /* CoreGraphics.framework in Frameworks */,
-				326CDE81191323280061E215 /* SystemConfiguration.framework in Frameworks */,
-				326CDE6D191322E50061E215 /* FacebookSDK.framework in Frameworks */,
-				326CDE6F191322F10061E215 /* Accounts.framework in Frameworks */,
-				326CDE7A191323130061E215 /* AudioToolbox.framework in Frameworks */,
-				326CDE80191323280061E215 /* Security.framework in Frameworks */,
-				326CDE78191323130061E215 /* CoreLocation.framework in Frameworks */,
-				326CDE85191323380061E215 /* libsqlite3.0.dylib in Frameworks */,
-				327EAC9F19009FC90013BD18 /* UIKit.framework in Frameworks */,
-				326CDE871913233D0061E215 /* libz.1.1.3.dylib in Frameworks */,
-				326CDE7B191323130061E215 /* CFNetwork.framework in Frameworks */,
-				326CDE6B191321EF0061E215 /* Parse.framework in Frameworks */,
-				326CDE7F191323280061E215 /* MobileCoreServices.framework in Frameworks */,
-				327EAC9B19009FC90013BD18 /* Foundation.framework in Frameworks */,
-				326CDE79191323130061E215 /* StoreKit.framework in Frameworks */,
-				326CDE71191322F70061E215 /* AdSupport.framework in Frameworks */,
-				326CDE77191323130061E215 /* Social.framework in Frameworks */,
+				321D21AE19197B620043C6E2 /* CoreGraphics.framework in Frameworks */,
+				321D21B019197B620043C6E2 /* UIKit.framework in Frameworks */,
+				321D21AC19197B620043C6E2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		327EACAF19009FC90013BD18 /* Frameworks */ = {
+		321D21C019197B620043C6E2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				327EACB419009FC90013BD18 /* XCTest.framework in Frameworks */,
-				327EACB619009FC90013BD18 /* UIKit.framework in Frameworks */,
-				327EACB519009FC90013BD18 /* Foundation.framework in Frameworks */,
+				321D21C519197B620043C6E2 /* XCTest.framework in Frameworks */,
+				321D21C719197B630043C6E2 /* UIKit.framework in Frameworks */,
+				321D21C619197B620043C6E2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		327EAC8E19009FC90013BD18 = {
+		321D219F19197B620043C6E2 = {
 			isa = PBXGroup;
 			children = (
-				326CDE6819131FBC0061E215 /* Storyboard.storyboard */,
-				327EACA019009FC90013BD18 /* Runovation_iOS */,
-				327EACB919009FC90013BD18 /* Runovation_iOSTests */,
-				327EAC9919009FC90013BD18 /* Frameworks */,
-				327EAC9819009FC90013BD18 /* Products */,
+				321D21B119197B620043C6E2 /* Runovation_iOS */,
+				321D21CA19197B630043C6E2 /* Runovation_iOSTests */,
+				321D21AA19197B620043C6E2 /* Frameworks */,
+				321D21A919197B620043C6E2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		327EAC9819009FC90013BD18 /* Products */ = {
+		321D21A919197B620043C6E2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				327EAC9719009FC90013BD18 /* Runovation_iOS.app */,
-				327EACB219009FC90013BD18 /* Runovation_iOSTests.xctest */,
+				321D21A819197B620043C6E2 /* Runovation_iOS.app */,
+				321D21C319197B620043C6E2 /* Runovation_iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		327EAC9919009FC90013BD18 /* Frameworks */ = {
+		321D21AA19197B620043C6E2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				326CDE861913233D0061E215 /* libz.1.1.3.dylib */,
-				326CDE84191323380061E215 /* libsqlite3.0.dylib */,
-				326CDE821913232E0061E215 /* QuartzCore.framework */,
-				326CDE7C191323280061E215 /* MobileCoreServices.framework */,
-				326CDE7D191323280061E215 /* Security.framework */,
-				326CDE7E191323280061E215 /* SystemConfiguration.framework */,
-				326CDE72191323130061E215 /* Social.framework */,
-				326CDE73191323130061E215 /* CoreLocation.framework */,
-				326CDE74191323130061E215 /* StoreKit.framework */,
-				326CDE75191323130061E215 /* AudioToolbox.framework */,
-				326CDE76191323130061E215 /* CFNetwork.framework */,
-				326CDE70191322F70061E215 /* AdSupport.framework */,
-				326CDE6E191322F10061E215 /* Accounts.framework */,
-				326CDE6C191322E50061E215 /* FacebookSDK.framework */,
-				326CDE6A191321EE0061E215 /* Parse.framework */,
-				327EAC9A19009FC90013BD18 /* Foundation.framework */,
-				327EAC9C19009FC90013BD18 /* CoreGraphics.framework */,
-				327EAC9E19009FC90013BD18 /* UIKit.framework */,
-				327EACB319009FC90013BD18 /* XCTest.framework */,
+				321D21AB19197B620043C6E2 /* Foundation.framework */,
+				321D21AD19197B620043C6E2 /* CoreGraphics.framework */,
+				321D21AF19197B620043C6E2 /* UIKit.framework */,
+				321D21C419197B620043C6E2 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		327EACA019009FC90013BD18 /* Runovation_iOS */ = {
+		321D21B119197B620043C6E2 /* Runovation_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				328595AA1913130200367617 /* Default.png */,
-				327EACA919009FC90013BD18 /* AppDelegate.h */,
-				327EACAA19009FC90013BD18 /* AppDelegate.m */,
-				326CDE881913235F0061E215 /* DemoTableViewController.h */,
-				326CDE891913235F0061E215 /* DemoTableViewController.m */,
-				327EACAC19009FC90013BD18 /* Images.xcassets */,
-				327EACA119009FC90013BD18 /* Supporting Files */,
+				32C4FFBD1919D2FD00B8FC4C /* Default.png */,
+				321D21BA19197B620043C6E2 /* AppDelegate.h */,
+				321D21DA19197B7D0043C6E2 /* Main.storyboard */,
+				321D21BB19197B620043C6E2 /* AppDelegate.m */,
+				321D21BD19197B620043C6E2 /* Images.xcassets */,
+				321D21B219197B620043C6E2 /* Supporting Files */,
 			);
 			path = Runovation_iOS;
 			sourceTree = "<group>";
 		};
-		327EACA119009FC90013BD18 /* Supporting Files */ = {
+		321D21B219197B620043C6E2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				327EACA219009FC90013BD18 /* Runovation_iOS-Info.plist */,
-				327EACA319009FC90013BD18 /* InfoPlist.strings */,
-				327EACA619009FC90013BD18 /* main.m */,
-				327EACA819009FC90013BD18 /* Runovation_iOS-Prefix.pch */,
+				321D21B319197B620043C6E2 /* Runovation_iOS-Info.plist */,
+				321D21B419197B620043C6E2 /* InfoPlist.strings */,
+				321D21B719197B620043C6E2 /* main.m */,
+				321D21B919197B620043C6E2 /* Runovation_iOS-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		327EACB919009FC90013BD18 /* Runovation_iOSTests */ = {
+		321D21CA19197B630043C6E2 /* Runovation_iOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				327EACBF19009FC90013BD18 /* Runovation_iOSTests.m */,
-				327EACBA19009FC90013BD18 /* Supporting Files */,
+				321D21D019197B630043C6E2 /* Runovation_iOSTests.m */,
+				321D21CB19197B630043C6E2 /* Supporting Files */,
 			);
 			path = Runovation_iOSTests;
 			sourceTree = "<group>";
 		};
-		327EACBA19009FC90013BD18 /* Supporting Files */ = {
+		321D21CB19197B630043C6E2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				327EACBB19009FC90013BD18 /* Runovation_iOSTests-Info.plist */,
-				327EACBC19009FC90013BD18 /* InfoPlist.strings */,
+				321D21CC19197B630043C6E2 /* Runovation_iOSTests-Info.plist */,
+				321D21CD19197B630043C6E2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -218,13 +153,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		327EAC9619009FC90013BD18 /* Runovation_iOS */ = {
+		321D21A719197B620043C6E2 /* Runovation_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 327EACC319009FC90013BD18 /* Build configuration list for PBXNativeTarget "Runovation_iOS" */;
+			buildConfigurationList = 321D21D419197B630043C6E2 /* Build configuration list for PBXNativeTarget "Runovation_iOS" */;
 			buildPhases = (
-				327EAC9319009FC90013BD18 /* Sources */,
-				327EAC9419009FC90013BD18 /* Frameworks */,
-				327EAC9519009FC90013BD18 /* Resources */,
+				321D21A419197B620043C6E2 /* Sources */,
+				321D21A519197B620043C6E2 /* Frameworks */,
+				321D21A619197B620043C6E2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -232,123 +167,125 @@
 			);
 			name = Runovation_iOS;
 			productName = Runovation_iOS;
-			productReference = 327EAC9719009FC90013BD18 /* Runovation_iOS.app */;
+			productReference = 321D21A819197B620043C6E2 /* Runovation_iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		327EACB119009FC90013BD18 /* Runovation_iOSTests */ = {
+		321D21C219197B620043C6E2 /* Runovation_iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 327EACC619009FC90013BD18 /* Build configuration list for PBXNativeTarget "Runovation_iOSTests" */;
+			buildConfigurationList = 321D21D719197B630043C6E2 /* Build configuration list for PBXNativeTarget "Runovation_iOSTests" */;
 			buildPhases = (
-				327EACAE19009FC90013BD18 /* Sources */,
-				327EACAF19009FC90013BD18 /* Frameworks */,
-				327EACB019009FC90013BD18 /* Resources */,
+				321D21BF19197B620043C6E2 /* Sources */,
+				321D21C019197B620043C6E2 /* Frameworks */,
+				321D21C119197B620043C6E2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				327EACB819009FC90013BD18 /* PBXTargetDependency */,
+				321D21C919197B630043C6E2 /* PBXTargetDependency */,
 			);
 			name = Runovation_iOSTests;
 			productName = Runovation_iOSTests;
-			productReference = 327EACB219009FC90013BD18 /* Runovation_iOSTests.xctest */;
+			productReference = 321D21C319197B620043C6E2 /* Runovation_iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		327EAC8F19009FC90013BD18 /* Project object */ = {
+		321D21A019197B620043C6E2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = Runovation;
+				ORGANIZATIONNAME = runovationfitness;
 				TargetAttributes = {
-					327EACB119009FC90013BD18 = {
-						TestTargetID = 327EAC9619009FC90013BD18;
+					321D21A719197B620043C6E2 = {
+						DevelopmentTeam = 775B3CTYJM;
+					};
+					321D21C219197B620043C6E2 = {
+						TestTargetID = 321D21A719197B620043C6E2;
 					};
 				};
 			};
-			buildConfigurationList = 327EAC9219009FC90013BD18 /* Build configuration list for PBXProject "Runovation_iOS" */;
-			compatibilityVersion = "Xcode 3.1";
+			buildConfigurationList = 321D21A319197B620043C6E2 /* Build configuration list for PBXProject "Runovation_iOS" */;
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 327EAC8E19009FC90013BD18;
-			productRefGroup = 327EAC9819009FC90013BD18 /* Products */;
+			mainGroup = 321D219F19197B620043C6E2;
+			productRefGroup = 321D21A919197B620043C6E2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				327EAC9619009FC90013BD18 /* Runovation_iOS */,
-				327EACB119009FC90013BD18 /* Runovation_iOSTests */,
+				321D21A719197B620043C6E2 /* Runovation_iOS */,
+				321D21C219197B620043C6E2 /* Runovation_iOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		327EAC9519009FC90013BD18 /* Resources */ = {
+		321D21A619197B620043C6E2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				327EACA519009FC90013BD18 /* InfoPlist.strings in Resources */,
-				326CDE6919131FBC0061E215 /* Storyboard.storyboard in Resources */,
-				328595AB1913130200367617 /* Default.png in Resources */,
-				327EACAD19009FC90013BD18 /* Images.xcassets in Resources */,
+				321D21DB19197B7D0043C6E2 /* Main.storyboard in Resources */,
+				321D21B619197B620043C6E2 /* InfoPlist.strings in Resources */,
+				321D21BE19197B620043C6E2 /* Images.xcassets in Resources */,
+				32C4FFBE1919D2FD00B8FC4C /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		327EACB019009FC90013BD18 /* Resources */ = {
+		321D21C119197B620043C6E2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				327EACBE19009FC90013BD18 /* InfoPlist.strings in Resources */,
+				321D21CF19197B630043C6E2 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		327EAC9319009FC90013BD18 /* Sources */ = {
+		321D21A419197B620043C6E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				326CDE8A1913235F0061E215 /* DemoTableViewController.m in Sources */,
-				327EACAB19009FC90013BD18 /* AppDelegate.m in Sources */,
-				327EACA719009FC90013BD18 /* main.m in Sources */,
+				321D21BC19197B620043C6E2 /* AppDelegate.m in Sources */,
+				321D21B819197B620043C6E2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		327EACAE19009FC90013BD18 /* Sources */ = {
+		321D21BF19197B620043C6E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				327EACC019009FC90013BD18 /* Runovation_iOSTests.m in Sources */,
+				321D21D119197B630043C6E2 /* Runovation_iOSTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		327EACB819009FC90013BD18 /* PBXTargetDependency */ = {
+		321D21C919197B630043C6E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 327EAC9619009FC90013BD18 /* Runovation_iOS */;
-			targetProxy = 327EACB719009FC90013BD18 /* PBXContainerItemProxy */;
+			target = 321D21A719197B620043C6E2 /* Runovation_iOS */;
+			targetProxy = 321D21C819197B630043C6E2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		327EACA319009FC90013BD18 /* InfoPlist.strings */ = {
+		321D21B419197B620043C6E2 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				327EACA419009FC90013BD18 /* en */,
+				321D21B519197B620043C6E2 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		327EACBC19009FC90013BD18 /* InfoPlist.strings */ = {
+		321D21CD19197B630043C6E2 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				327EACBD19009FC90013BD18 /* en */,
+				321D21CE19197B630043C6E2 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -356,7 +293,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		327EACC119009FC90013BD18 /* Debug */ = {
+		321D21D219197B630043C6E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -395,7 +332,7 @@
 			};
 			name = Debug;
 		};
-		327EACC219009FC90013BD18 /* Release */ = {
+		321D21D319197B630043C6E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -428,63 +365,39 @@
 			};
 			name = Release;
 		};
-		327EACC419009FC90013BD18 /* Debug */ = {
+		321D21D519197B630043C6E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					/Volumes/User,
-					A/Eli,
-					Stine,
-					/Volumes/User,
-					A/Eli,
-					Stine/Runovation_iOS,
-					/Volumes/User,
-					A/Eli,
-					"Stine/Runovation_iOS/ParsePlatform-LoginAndSignUpTutorial-0710943",
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Runovation_iOS/Runovation_iOS-Prefix.pch";
 				INFOPLIST_FILE = "Runovation_iOS/Runovation_iOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		327EACC519009FC90013BD18 /* Release */ = {
+		321D21D619197B630043C6E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					/Volumes/User,
-					A/Eli,
-					Stine,
-					/Volumes/User,
-					A/Eli,
-					Stine/Runovation_iOS,
-					/Volumes/User,
-					A/Eli,
-					"Stine/Runovation_iOS/ParsePlatform-LoginAndSignUpTutorial-0710943",
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Runovation_iOS/Runovation_iOS-Prefix.pch";
 				INFOPLIST_FILE = "Runovation_iOS/Runovation_iOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		327EACC719009FC90013BD18 /* Debug */ = {
+		321D21D819197B630043C6E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Runovation_iOS.app/Runovation_iOS";
@@ -506,7 +419,7 @@
 			};
 			name = Debug;
 		};
-		327EACC819009FC90013BD18 /* Release */ = {
+		321D21D919197B630043C6E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Runovation_iOS.app/Runovation_iOS";
@@ -527,34 +440,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		327EAC9219009FC90013BD18 /* Build configuration list for PBXProject "Runovation_iOS" */ = {
+		321D21A319197B620043C6E2 /* Build configuration list for PBXProject "Runovation_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				327EACC119009FC90013BD18 /* Debug */,
-				327EACC219009FC90013BD18 /* Release */,
+				321D21D219197B630043C6E2 /* Debug */,
+				321D21D319197B630043C6E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		327EACC319009FC90013BD18 /* Build configuration list for PBXNativeTarget "Runovation_iOS" */ = {
+		321D21D419197B630043C6E2 /* Build configuration list for PBXNativeTarget "Runovation_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				327EACC419009FC90013BD18 /* Debug */,
-				327EACC519009FC90013BD18 /* Release */,
+				321D21D519197B630043C6E2 /* Debug */,
+				321D21D619197B630043C6E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		327EACC619009FC90013BD18 /* Build configuration list for PBXNativeTarget "Runovation_iOSTests" */ = {
+		321D21D719197B630043C6E2 /* Build configuration list for PBXNativeTarget "Runovation_iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				327EACC719009FC90013BD18 /* Debug */,
-				327EACC819009FC90013BD18 /* Release */,
+				321D21D819197B630043C6E2 /* Debug */,
+				321D21D919197B630043C6E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 327EAC8F19009FC90013BD18 /* Project object */;
+	rootObject = 321D21A019197B620043C6E2 /* Project object */;
 }
