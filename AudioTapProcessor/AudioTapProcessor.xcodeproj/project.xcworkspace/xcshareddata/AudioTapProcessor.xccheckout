@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>110A68A2-80B0-40F5-9FAC-E7961B8F88BE</string>
+	<string>31486F4F-9A80-4792-A388-A18C46514305</string>
 	<key>IDESourceControlProjectName</key>
 	<string>AudioTapProcessor</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>5506EC64-4F31-49D1-B53C-DCFBCEB773B0</key>
+		<key>05F6AF21-D1A7-469C-A906-DF291C0A55A8</key>
 		<string>https://github.com/Runovation/Runovation_iOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>AudioTapProcessor/AudioTapProcessor.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>5506EC64-4F31-49D1-B53C-DCFBCEB773B0</key>
+		<key>05F6AF21-D1A7-469C-A906-DF291C0A55A8</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>5506EC64-4F31-49D1-B53C-DCFBCEB773B0</string>
+	<string>05F6AF21-D1A7-469C-A906-DF291C0A55A8</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>5506EC64-4F31-49D1-B53C-DCFBCEB773B0</string>
+			<string>05F6AF21-D1A7-469C-A906-DF291C0A55A8</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Runovation_iOS</string>
 		</dict>

@@ -21,6 +21,7 @@
 		321D21D119197B630043C6E2 /* Runovation_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 321D21D019197B630043C6E2 /* Runovation_iOSTests.m */; };
 		321D21DB19197B7D0043C6E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 321D21DA19197B7D0043C6E2 /* Main.storyboard */; };
 		32C4FFBE1919D2FD00B8FC4C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C4FFBD1919D2FD00B8FC4C /* Default.png */; };
+		32D361BC191FB0FC009A87B8 /* PlaylistView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D361BB191FB0FC009A87B8 /* PlaylistView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		321D21D019197B630043C6E2 /* Runovation_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Runovation_iOSTests.m; sourceTree = "<group>"; };
 		321D21DA19197B7D0043C6E2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		32C4FFBD1919D2FD00B8FC4C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../../Default.png; sourceTree = "<group>"; };
+		32D361BA191FB0FC009A87B8 /* PlaylistView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaylistView.h; path = ../PlaylistView.h; sourceTree = "<group>"; };
+		32D361BB191FB0FC009A87B8 /* PlaylistView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaylistView.m; path = ../PlaylistView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 		321D21B119197B620043C6E2 /* Runovation_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				32D361BA191FB0FC009A87B8 /* PlaylistView.h */,
+				32D361BB191FB0FC009A87B8 /* PlaylistView.m */,
 				32C4FFBD1919D2FD00B8FC4C /* Default.png */,
 				321D21BA19197B620043C6E2 /* AppDelegate.h */,
 				321D21DA19197B7D0043C6E2 /* Main.storyboard */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				321D21BC19197B620043C6E2 /* AppDelegate.m in Sources */,
+				32D361BC191FB0FC009A87B8 /* PlaylistView.m in Sources */,
 				321D21B819197B620043C6E2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

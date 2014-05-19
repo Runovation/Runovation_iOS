@@ -7,12 +7,44 @@
 //
 
 #import "AppDelegate.h"
+#import <MediaPlayer/MediaPlayer.h>
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-
+    
+    
+//    //Create an instance of MPMusicPlayerController
+//    
+//    MPMusicPlayerController* myPlayer = [MPMusicPlayerController iPodMusicPlayer];
+//    
+//    
+//    
+//    //Create a query that will return all songs by The Beatles grouped by album
+//    
+//    MPMediaQuery* query = [MPMediaQuery songsQuery];
+//    
+//    [query addFilterPredicate:[MPMediaPropertyPredicate predicateWithValue:@"The Beatles" forProperty:MPMediaItemPropertyArtist comparisonType:MPMediaPredicateComparisonEqualTo]];
+//    
+//    [query setGroupingType:MPMediaGroupingAlbum];
+//    
+//    
+//    
+//    //Pass the query to the player
+//    
+//    [myPlayer setQueueWithQuery:query];
+//    
+//    
+//    
+//    //Start playing and set a label text to the name and image to the cover art of the song that is playing
+//    
+//    [myPlayer play];
+//    
+//    //someLabel.text = [myPlayer.nowPlayingItem valueForProperty:MPMediaItemPropertyTitle];
+//    
+//    //someImageView.image = [myPlayer.nowPlayingItem valueForProperty:MPMediaItemPropertyArtwork];
+    
     return YES;
 }
 
