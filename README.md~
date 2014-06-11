@@ -3,12 +3,6 @@ Runovation_iOS
 
 Repo for the iOS version.
 
-TODO:
-• Integrate playlist picking (pick song to playback) into main app
-• Integrate RMS of song (energy level) into main app
-• Add in log-in screen to main app
-
-
 Notes for Audio Backend:
 
 Novocaine - easy audio playback in iOS:
