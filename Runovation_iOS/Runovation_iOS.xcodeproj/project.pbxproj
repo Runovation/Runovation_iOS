@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E0663C71948EC880099D234 /* MYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0663BA1948EC880099D234 /* MYAppDelegate.m */; };
+		0E0663C81948EC880099D234 /* MYAudioTapProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0663BC1948EC880099D234 /* MYAudioTapProcessor.m */; };
+		0E0663C91948EC880099D234 /* MYGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0663BE1948EC880099D234 /* MYGradientView.m */; };
+		0E0663CA1948EC880099D234 /* MYPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0663C01948EC880099D234 /* MYPlayerView.m */; };
+		0E0663CB1948EC880099D234 /* MYSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0663C21948EC880099D234 /* MYSettingsViewController.m */; };
+		0E0663CC1948EC880099D234 /* MYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0663C41948EC880099D234 /* MYViewController.m */; };
+		0E0663CD1948EC880099D234 /* MYVolumeUnitMeterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0663C61948EC880099D234 /* MYVolumeUnitMeterView.m */; };
+		0EFD16591948EF6B0015A0EE /* PauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFD164B1948EF6B0015A0EE /* PauseButton.png */; };
+		0EFD165A1948EF6B0015A0EE /* PauseButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFD164C1948EF6B0015A0EE /* PauseButton@2x.png */; };
+		0EFD165B1948EF6B0015A0EE /* PlaybackControlsBarShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFD164D1948EF6B0015A0EE /* PlaybackControlsBarShadow.png */; };
+		0EFD165C1948EF6B0015A0EE /* PlaybackControlsBarShadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFD164E1948EF6B0015A0EE /* PlaybackControlsBarShadow@2x.png */; };
+		0EFD165D1948EF6B0015A0EE /* PlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFD164F1948EF6B0015A0EE /* PlayButton.png */; };
+		0EFD165E1948EF6B0015A0EE /* PlayButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFD16501948EF6B0015A0EE /* PlayButton@2x.png */; };
+		0EFD165F1948EF6B0015A0EE /* SettingsButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFD16511948EF6B0015A0EE /* SettingsButton.png */; };
+		0EFD16601948EF6B0015A0EE /* SettingsButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFD16521948EF6B0015A0EE /* SettingsButton@2x.png */; };
+		0EFD16611948EF6B0015A0EE /* VUMeterBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFD16531948EF6B0015A0EE /* VUMeterBackground.png */; };
+		0EFD16621948EF6B0015A0EE /* VUMeterBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFD16541948EF6B0015A0EE /* VUMeterBackground@2x.png */; };
+		0EFD16631948EF6B0015A0EE /* VUMeterForeground.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFD16551948EF6B0015A0EE /* VUMeterForeground.png */; };
+		0EFD16641948EF6B0015A0EE /* VUMeterForeground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFD16561948EF6B0015A0EE /* VUMeterForeground@2x.png */; };
+		0EFD16651948EF6B0015A0EE /* VUMeterNeedle.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFD16571948EF6B0015A0EE /* VUMeterNeedle.png */; };
+		0EFD16661948EF6B0015A0EE /* VUMeterNeedle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFD16581948EF6B0015A0EE /* VUMeterNeedle@2x.png */; };
 		321D21AC19197B620043C6E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321D21AB19197B620043C6E2 /* Foundation.framework */; };
 		321D21AE19197B620043C6E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321D21AD19197B620043C6E2 /* CoreGraphics.framework */; };
 		321D21B019197B620043C6E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321D21AF19197B620043C6E2 /* UIKit.framework */; };
@@ -21,7 +42,6 @@
 		321D21D119197B630043C6E2 /* Runovation_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 321D21D019197B630043C6E2 /* Runovation_iOSTests.m */; };
 		321D21DB19197B7D0043C6E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 321D21DA19197B7D0043C6E2 /* Main.storyboard */; };
 		32C4FFBE1919D2FD00B8FC4C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C4FFBD1919D2FD00B8FC4C /* Default.png */; };
-		32D361BC191FB0FC009A87B8 /* PlaylistView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D361BB191FB0FC009A87B8 /* PlaylistView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +55,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E0663B91948EC880099D234 /* MYAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYAppDelegate.h; sourceTree = "<group>"; };
+		0E0663BA1948EC880099D234 /* MYAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYAppDelegate.m; sourceTree = "<group>"; };
+		0E0663BB1948EC880099D234 /* MYAudioTapProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYAudioTapProcessor.h; sourceTree = "<group>"; };
+		0E0663BC1948EC880099D234 /* MYAudioTapProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYAudioTapProcessor.m; sourceTree = "<group>"; };
+		0E0663BD1948EC880099D234 /* MYGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYGradientView.h; sourceTree = "<group>"; };
+		0E0663BE1948EC880099D234 /* MYGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYGradientView.m; sourceTree = "<group>"; };
+		0E0663BF1948EC880099D234 /* MYPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYPlayerView.h; sourceTree = "<group>"; };
+		0E0663C01948EC880099D234 /* MYPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYPlayerView.m; sourceTree = "<group>"; };
+		0E0663C11948EC880099D234 /* MYSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYSettingsViewController.h; sourceTree = "<group>"; };
+		0E0663C21948EC880099D234 /* MYSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYSettingsViewController.m; sourceTree = "<group>"; };
+		0E0663C31948EC880099D234 /* MYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYViewController.h; sourceTree = "<group>"; };
+		0E0663C41948EC880099D234 /* MYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYViewController.m; sourceTree = "<group>"; };
+		0E0663C51948EC880099D234 /* MYVolumeUnitMeterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYVolumeUnitMeterView.h; sourceTree = "<group>"; };
+		0E0663C61948EC880099D234 /* MYVolumeUnitMeterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYVolumeUnitMeterView.m; sourceTree = "<group>"; };
+		0EFD164B1948EF6B0015A0EE /* PauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PauseButton.png; sourceTree = "<group>"; };
+		0EFD164C1948EF6B0015A0EE /* PauseButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PauseButton@2x.png"; sourceTree = "<group>"; };
+		0EFD164D1948EF6B0015A0EE /* PlaybackControlsBarShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlaybackControlsBarShadow.png; sourceTree = "<group>"; };
+		0EFD164E1948EF6B0015A0EE /* PlaybackControlsBarShadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlaybackControlsBarShadow@2x.png"; sourceTree = "<group>"; };
+		0EFD164F1948EF6B0015A0EE /* PlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayButton.png; sourceTree = "<group>"; };
+		0EFD16501948EF6B0015A0EE /* PlayButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlayButton@2x.png"; sourceTree = "<group>"; };
+		0EFD16511948EF6B0015A0EE /* SettingsButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SettingsButton.png; sourceTree = "<group>"; };
+		0EFD16521948EF6B0015A0EE /* SettingsButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SettingsButton@2x.png"; sourceTree = "<group>"; };
+		0EFD16531948EF6B0015A0EE /* VUMeterBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VUMeterBackground.png; sourceTree = "<group>"; };
+		0EFD16541948EF6B0015A0EE /* VUMeterBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VUMeterBackground@2x.png"; sourceTree = "<group>"; };
+		0EFD16551948EF6B0015A0EE /* VUMeterForeground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VUMeterForeground.png; sourceTree = "<group>"; };
+		0EFD16561948EF6B0015A0EE /* VUMeterForeground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VUMeterForeground@2x.png"; sourceTree = "<group>"; };
+		0EFD16571948EF6B0015A0EE /* VUMeterNeedle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VUMeterNeedle.png; sourceTree = "<group>"; };
+		0EFD16581948EF6B0015A0EE /* VUMeterNeedle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VUMeterNeedle@2x.png"; sourceTree = "<group>"; };
 		321D21A819197B620043C6E2 /* Runovation_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runovation_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		321D21AB19197B620043C6E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		321D21AD19197B620043C6E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,8 +101,6 @@
 		321D21D019197B630043C6E2 /* Runovation_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Runovation_iOSTests.m; sourceTree = "<group>"; };
 		321D21DA19197B7D0043C6E2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		32C4FFBD1919D2FD00B8FC4C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../../Default.png; sourceTree = "<group>"; };
-		32D361BA191FB0FC009A87B8 /* PlaylistView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaylistView.h; path = ../PlaylistView.h; sourceTree = "<group>"; };
-		32D361BB191FB0FC009A87B8 /* PlaylistView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaylistView.m; path = ../PlaylistView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +127,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E919FC71948E9C1005DFB3F /* MediaPlayer (And RMS) */ = {
+			isa = PBXGroup;
+			children = (
+				0EFD164B1948EF6B0015A0EE /* PauseButton.png */,
+				0EFD164C1948EF6B0015A0EE /* PauseButton@2x.png */,
+				0EFD164D1948EF6B0015A0EE /* PlaybackControlsBarShadow.png */,
+				0EFD164E1948EF6B0015A0EE /* PlaybackControlsBarShadow@2x.png */,
+				0EFD164F1948EF6B0015A0EE /* PlayButton.png */,
+				0EFD16501948EF6B0015A0EE /* PlayButton@2x.png */,
+				0EFD16511948EF6B0015A0EE /* SettingsButton.png */,
+				0EFD16521948EF6B0015A0EE /* SettingsButton@2x.png */,
+				0EFD16531948EF6B0015A0EE /* VUMeterBackground.png */,
+				0EFD16541948EF6B0015A0EE /* VUMeterBackground@2x.png */,
+				0EFD16551948EF6B0015A0EE /* VUMeterForeground.png */,
+				0EFD16561948EF6B0015A0EE /* VUMeterForeground@2x.png */,
+				0EFD16571948EF6B0015A0EE /* VUMeterNeedle.png */,
+				0EFD16581948EF6B0015A0EE /* VUMeterNeedle@2x.png */,
+				0E0663B91948EC880099D234 /* MYAppDelegate.h */,
+				0E0663BA1948EC880099D234 /* MYAppDelegate.m */,
+				0E0663BB1948EC880099D234 /* MYAudioTapProcessor.h */,
+				0E0663BC1948EC880099D234 /* MYAudioTapProcessor.m */,
+				0E0663BD1948EC880099D234 /* MYGradientView.h */,
+				0E0663BE1948EC880099D234 /* MYGradientView.m */,
+				0E0663BF1948EC880099D234 /* MYPlayerView.h */,
+				0E0663C01948EC880099D234 /* MYPlayerView.m */,
+				0E0663C11948EC880099D234 /* MYSettingsViewController.h */,
+				0E0663C21948EC880099D234 /* MYSettingsViewController.m */,
+				0E0663C31948EC880099D234 /* MYViewController.h */,
+				0E0663C41948EC880099D234 /* MYViewController.m */,
+				0E0663C51948EC880099D234 /* MYVolumeUnitMeterView.h */,
+				0E0663C61948EC880099D234 /* MYVolumeUnitMeterView.m */,
+			);
+			name = "MediaPlayer (And RMS)";
+			sourceTree = "<group>";
+		};
 		321D219F19197B620043C6E2 = {
 			isa = PBXGroup;
 			children = (
+				0E919FC71948E9C1005DFB3F /* MediaPlayer (And RMS) */,
 				321D21B119197B620043C6E2 /* Runovation_iOS */,
 				321D21CA19197B630043C6E2 /* Runovation_iOSTests */,
 				321D21AA19197B620043C6E2 /* Frameworks */,
@@ -114,8 +196,6 @@
 		321D21B119197B620043C6E2 /* Runovation_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				32D361BA191FB0FC009A87B8 /* PlaylistView.h */,
-				32D361BB191FB0FC009A87B8 /* PlaylistView.m */,
 				32C4FFBD1919D2FD00B8FC4C /* Default.png */,
 				321D21BA19197B620043C6E2 /* AppDelegate.h */,
 				321D21DA19197B7D0043C6E2 /* Main.storyboard */,
@@ -233,10 +313,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EFD16611948EF6B0015A0EE /* VUMeterBackground.png in Resources */,
+				0EFD16651948EF6B0015A0EE /* VUMeterNeedle.png in Resources */,
+				0EFD165E1948EF6B0015A0EE /* PlayButton@2x.png in Resources */,
 				321D21DB19197B7D0043C6E2 /* Main.storyboard in Resources */,
 				321D21B619197B620043C6E2 /* InfoPlist.strings in Resources */,
+				0EFD16591948EF6B0015A0EE /* PauseButton.png in Resources */,
+				0EFD165B1948EF6B0015A0EE /* PlaybackControlsBarShadow.png in Resources */,
+				0EFD165A1948EF6B0015A0EE /* PauseButton@2x.png in Resources */,
+				0EFD16621948EF6B0015A0EE /* VUMeterBackground@2x.png in Resources */,
+				0EFD16641948EF6B0015A0EE /* VUMeterForeground@2x.png in Resources */,
+				0EFD165F1948EF6B0015A0EE /* SettingsButton.png in Resources */,
 				321D21BE19197B620043C6E2 /* Images.xcassets in Resources */,
+				0EFD16661948EF6B0015A0EE /* VUMeterNeedle@2x.png in Resources */,
+				0EFD165D1948EF6B0015A0EE /* PlayButton.png in Resources */,
+				0EFD165C1948EF6B0015A0EE /* PlaybackControlsBarShadow@2x.png in Resources */,
 				32C4FFBE1919D2FD00B8FC4C /* Default.png in Resources */,
+				0EFD16601948EF6B0015A0EE /* SettingsButton@2x.png in Resources */,
+				0EFD16631948EF6B0015A0EE /* VUMeterForeground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,9 +349,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E0663C71948EC880099D234 /* MYAppDelegate.m in Sources */,
+				0E0663CD1948EC880099D234 /* MYVolumeUnitMeterView.m in Sources */,
+				0E0663C81948EC880099D234 /* MYAudioTapProcessor.m in Sources */,
+				0E0663CC1948EC880099D234 /* MYViewController.m in Sources */,
+				0E0663C91948EC880099D234 /* MYGradientView.m in Sources */,
 				321D21BC19197B620043C6E2 /* AppDelegate.m in Sources */,
-				32D361BC191FB0FC009A87B8 /* PlaylistView.m in Sources */,
 				321D21B819197B620043C6E2 /* main.m in Sources */,
+				0E0663CA1948EC880099D234 /* MYPlayerView.m in Sources */,
+				0E0663CB1948EC880099D234 /* MYSettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

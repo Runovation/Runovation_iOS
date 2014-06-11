@@ -13,37 +13,36 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    
-    
-//    //Create an instance of MPMusicPlayerController
-//    
-//    MPMusicPlayerController* myPlayer = [MPMusicPlayerController iPodMusicPlayer];
-//    
-//    
-//    
-//    //Create a query that will return all songs by The Beatles grouped by album
-//    
-//    MPMediaQuery* query = [MPMediaQuery songsQuery];
-//    
-//    [query addFilterPredicate:[MPMediaPropertyPredicate predicateWithValue:@"The Beatles" forProperty:MPMediaItemPropertyArtist comparisonType:MPMediaPredicateComparisonEqualTo]];
-//    
-//    [query setGroupingType:MPMediaGroupingAlbum];
-//    
-//    
-//    
-//    //Pass the query to the player
-//    
-//    [myPlayer setQueueWithQuery:query];
-//    
-//    
-//    
-//    //Start playing and set a label text to the name and image to the cover art of the song that is playing
-//    
-//    [myPlayer play];
-//    
-//    //someLabel.text = [myPlayer.nowPlayingItem valueForProperty:MPMediaItemPropertyTitle];
-//    
-//    //someImageView.image = [myPlayer.nowPlayingItem valueForProperty:MPMediaItemPropertyArtwork];
+    // Calculate root mean square (RMS) for left and right audio channel.
+//	for (UInt32 i = 0; i < bufferListInOut->mNumberBuffers; i++)
+//	{
+//		AudioBuffer *pBuffer = &bufferListInOut->mBuffers[i];
+//		UInt32 cSamples = numberFrames * (context->isNonInterleaved ? 1 : pBuffer->mNumberChannels);
+//		
+//		float *pData = (float *)pBuffer->mData;
+//		
+//		float rms = 0.0f;
+//		for (UInt32 j = 0; j < cSamples; j++)
+//		{
+//			rms += pData[j] * pData[j];
+//		}
+//		if (cSamples > 0)
+//		{
+//			rms = sqrtf(rms / cSamples);
+//		}
+//		
+//		if (0 == i)
+//		{
+//			context->leftChannelVolume = rms;
+//		}
+//		if (1 == i || (0 == i && 1 == bufferListInOut->mNumberBuffers))
+//		{
+//			context->rightChannelVolume = rms;
+//		}
+//	}
+//	
+//	// Pass calculated left and right channel volume to VU meters.
+//	[self updateLeftChannelVolume:context->leftChannelVolume rightChannelVolume:context->rightChannelVolume];
     
     return YES;
 }
