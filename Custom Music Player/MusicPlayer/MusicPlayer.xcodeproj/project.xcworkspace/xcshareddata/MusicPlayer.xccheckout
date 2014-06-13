@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>178BB282-8626-4254-B3C2-55AFDA98AE2B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MusicPlayer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>915CF604-13D4-41CB-87B3-3BEE233EDEB4</key>
+		<string>https://github.com/Runovation/Runovation_iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Custom Music Player/MusicPlayer/MusicPlayer.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>915CF604-13D4-41CB-87B3-3BEE233EDEB4</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Runovation/Runovation_iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>915CF604-13D4-41CB-87B3-3BEE233EDEB4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>915CF604-13D4-41CB-87B3-3BEE233EDEB4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Runovation_iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
