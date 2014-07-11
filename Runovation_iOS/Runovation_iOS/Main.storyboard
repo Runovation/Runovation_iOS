@@ -157,6 +157,9 @@
                                 <state key="normal" title="Login">
                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="TYD-a5-Kvp" kind="modal" id="Om7-bc-LDO"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -519,6 +522,9 @@
                                         <state key="normal" title="NEXT">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="Rjh-RH-knV" kind="modal" id="BrV-Py-wpt"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -554,5 +560,6 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="EjU-72-eR9"/>
+        <segue reference="BrV-Py-wpt"/>
     </inferredMetricsTieBreakers>
 </document>
