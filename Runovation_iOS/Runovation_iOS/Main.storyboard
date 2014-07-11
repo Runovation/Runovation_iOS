@@ -157,9 +157,6 @@
                                 <state key="normal" title="Login">
                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="mU7-HI-h6I" kind="modal" id="9p0-Yo-UMo"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -212,7 +209,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yQL-Gu-vtA" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="left" id="rE5-fY-rZE"/>
             </objects>
-            <point key="canvasLocation" x="1287" y="132"/>
+            <point key="canvasLocation" x="2195" y="148"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="YJt-v1-LQu">
@@ -280,7 +277,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nmF-Kj-3r2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1287" y="818"/>
+            <point key="canvasLocation" x="2195" y="834"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="odS-YZ-pX0">
@@ -316,42 +313,168 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S80-03-E4t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="704" y="774"/>
+            <point key="canvasLocation" x="864" y="-546"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="x9Y-2f-qgu">
+        <scene sceneID="zoU-oH-We6">
             <objects>
-                <viewController id="mU7-HI-h6I" customClass="MYViewController" sceneMemberID="viewController">
+                <viewController id="TYD-a5-Kvp" customClass="MVViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Ll7-jQ-KUv"/>
-                        <viewControllerLayoutGuide type="bottom" id="fCZ-2u-6S1"/>
+                        <viewControllerLayoutGuide type="top" id="Xaa-xs-Au5"/>
+                        <viewControllerLayoutGuide type="bottom" id="yzC-fh-egd"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="TdW-w8-6VE">
+                    <view key="view" contentMode="scaleToFill" id="9Pg-EA-B5C">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OGK-sG-ydB">
+                                <rect key="frame" x="0.0" y="45" width="320" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CYB-HK-dQU">
+                                        <rect key="frame" x="15" y="9" width="59" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="Button" image="play_button.png">
+                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="selected" image="pause_button.png"/>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="togglePlayPauseTapped:" destination="TYD-a5-Kvp" eventType="touchUpInside" id="HXJ-4R-LJd"/>
+                                        </connections>
+                                    </button>
+                                    <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="JQ7-oh-maN">
+                                        <rect key="frame" x="89" y="32" width="213" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="sliderDragged:" destination="TYD-a5-Kvp" eventType="valueChanged" id="XRZ-MU-Y42"/>
+                                        </connections>
+                                    </slider>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sW6-Id-G3m">
+                                        <rect key="frame" x="91" y="9" width="158" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ifo-BU-60o">
+                                        <rect key="frame" x="181" y="58" width="119" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n0F-C4-Xqt">
+                                        <rect key="frame" x="91" y="58" width="42" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="uQe-UO-kyu">
+                                <rect key="frame" x="0.0" y="132" width="320" height="348"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MusicCell" textLabel="z7k-lW-ED3" detailTextLabel="AR0-CW-1Dh" style="IBUITableViewCellStyleValue1" id="rsW-bg-0vM">
+                                        <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rsW-bg-0vM" id="yKa-I8-0Ei">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="z7k-lW-ED3">
+                                                    <rect key="frame" x="15" y="11" width="34" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AR0-CW-1Dh">
+                                                    <rect key="frame" x="261" y="11" width="44" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.21960784310000001" green="0.3294117647" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pick a song!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kCD-pg-B06">
+                                <rect key="frame" x="15" y="22" width="104" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5nm-RI-eFK">
+                                <rect key="frame" x="155" y="18" width="140" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Go to RMS Analyzer">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="eag-kL-a0D" kind="modal" id="Vhq-AN-1oU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="durationOutlet" destination="Ifo-BU-60o" id="cEa-Hj-nWY"/>
+                        <outlet property="energyValue" destination="n0F-C4-Xqt" id="pqI-zA-1Ea"/>
+                        <outlet property="sliderOutlet" destination="JQ7-oh-maN" id="WKs-l3-9wu"/>
+                        <outlet property="songName" destination="sW6-Id-G3m" id="hfh-oz-OST"/>
+                        <outlet property="tableView" destination="uQe-UO-kyu" id="vP7-sY-raN"/>
+                        <outlet property="togglePlayPause" destination="CYB-HK-dQU" id="heq-jV-5d0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1ve-jA-zlh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1256" y="132"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Yp4-ix-cmv">
+            <objects>
+                <viewController id="eag-kL-a0D" customClass="MYViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jys-QK-Msg"/>
+                        <viewControllerLayoutGuide type="bottom" id="U12-Jj-gTX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oh1-WM-b7p">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9BV-xH-hdT" customClass="MYPlayerView">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cHT-8G-tbA" customClass="MYPlayerView">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="438"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jr5-OX-ue2" customClass="MYVolumeUnitMeterView">
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Tu-4r-n8a" customClass="MYVolumeUnitMeterView">
                                 <rect key="frame" x="0.0" y="313" width="300" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             </view>
-                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="PlaybackControlsBarShadow" translatesAutoresizingMaskIntoConstraints="NO" id="Y3O-tH-T1z">
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="PlaybackControlsBarShadow" translatesAutoresizingMaskIntoConstraints="NO" id="EjW-Zs-qfS">
                                 <rect key="frame" x="300" y="313" width="0.0" height="125"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                             </imageView>
-                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="thZ-iJ-8Hs" customClass="MYVolumeUnitMeterView">
-                                <rect key="frame" x="0.0" y="313" width="320" height="125"/>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="70y-86-DWh" customClass="MYVolumeUnitMeterView">
+                                <rect key="frame" x="20" y="313" width="300" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f0z-wp-gfQ" customClass="MYGradientView">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hkB-FY-nFQ" customClass="MYGradientView">
                                 <rect key="frame" x="0.0" y="438" width="320" height="42"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zi1-L1-7PO">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DcP-5C-sTR">
                                         <rect key="frame" x="15" y="6" width="30" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -363,44 +486,40 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="togglePlayPause:" destination="mU7-HI-h6I" eventType="touchUpInside" id="8DR-MJ-Gua"/>
+                                            <action selector="togglePlayPause:" destination="eag-kL-a0D" eventType="touchUpInside" id="enO-04-q1w"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="joB-0m-Jrv">
-                                        <rect key="frame" x="275" y="6" width="30" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal" title="" image="SettingsButton">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <state key="highlighted">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                    </button>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="-00:00:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="guh-Qe-zzC">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="-00:00:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="FA5-wX-7ST">
                                         <rect key="frame" x="48" y="13" width="53" height="15"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="8kh-Xe-hgo">
+                                    <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="F7V-Lr-sx1">
                                         <rect key="frame" x="107" y="3" width="108" height="31"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                         <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <color key="maximumTrackTintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <connections>
-                                            <action selector="seekToTime:" destination="mU7-HI-h6I" eventType="valueChanged" id="RiA-Y5-Kr6"/>
+                                            <action selector="seekToTime:" destination="eag-kL-a0D" eventType="valueChanged" id="yaM-YR-dfj"/>
                                         </connections>
                                     </slider>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="-00:00:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="ZZ3-Ix-ka3">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="-00:00:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Bcc-XI-6Ru">
                                         <rect key="frame" x="221" y="13" width="53" height="15"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JOR-3c-zFq">
+                                        <rect key="frame" x="282" y="7" width="30" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                        <state key="normal" title="NEXT">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
@@ -408,25 +527,25 @@
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="currentTimeSlider" destination="8kh-Xe-hgo" id="a17-pH-bc8"/>
-                        <outlet property="elapsedTimeLabel" destination="guh-Qe-zzC" id="mkT-Pl-LUP"/>
-                        <outlet property="leftChannelVolumeUnitMeterView" destination="jr5-OX-ue2" id="d7x-Bt-SiI"/>
-                        <outlet property="playPauseButton" destination="zi1-L1-7PO" id="Jbc-P9-w3N"/>
-                        <outlet property="playerView" destination="9BV-xH-hdT" id="CUe-nm-muC"/>
-                        <outlet property="remainingTimeLabel" destination="ZZ3-Ix-ka3" id="oTB-hP-lnv"/>
-                        <outlet property="rightChannelVolumeUnitMeterView" destination="thZ-iJ-8Hs" id="lrv-Gw-Frk"/>
-                        <outlet property="settingsPopoverButton" destination="joB-0m-Jrv" id="YHJ-Tq-YXy"/>
+                        <outlet property="currentTimeSlider" destination="F7V-Lr-sx1" id="m5g-on-nQI"/>
+                        <outlet property="elapsedTimeLabel" destination="FA5-wX-7ST" id="msG-zf-su9"/>
+                        <outlet property="leftChannelVolumeUnitMeterView" destination="0Tu-4r-n8a" id="a5q-ww-fIg"/>
+                        <outlet property="playPauseButton" destination="DcP-5C-sTR" id="23c-Ek-Gaw"/>
+                        <outlet property="playerView" destination="cHT-8G-tbA" id="RfS-JF-cn5"/>
+                        <outlet property="remainingTimeLabel" destination="Bcc-XI-6Ru" id="Z1z-4i-uhn"/>
+                        <outlet property="rightChannelVolumeUnitMeterView" destination="70y-86-DWh" id="eoj-71-vYJ"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="K5W-d6-dEr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hEB-J3-gC5" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="830" y="132"/>
+            <point key="canvasLocation" x="1652" y="132"/>
         </scene>
     </scenes>
     <resources>
         <image name="PlayButton" width="16" height="16"/>
         <image name="PlaybackControlsBarShadow" width="16" height="16"/>
-        <image name="SettingsButton" width="16" height="16"/>
+        <image name="pause_button.png" width="59" height="60"/>
+        <image name="play_button.png" width="59" height="60"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

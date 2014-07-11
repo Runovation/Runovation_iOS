@@ -35,6 +35,11 @@ https://github.com/core-plot
 https://github.com/honcheng/iOSPlot/tree/master/iOSPlot
 https://github.com/ReetuRaj/MIMChart-Library
 
+
+NEW from Eli (7-11-14)
+Explanation of how to convert .xib files to a Storyboard in XCode:
+http://www.raywenderlich.com/forums/viewtopic.php?t=3834
+
 ==============
 QUOTES:
 ==============

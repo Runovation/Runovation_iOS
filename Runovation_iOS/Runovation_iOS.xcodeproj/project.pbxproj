@@ -7,27 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E0663C71948EC880099D234 /* MYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0663BA1948EC880099D234 /* MYAppDelegate.m */; };
-		0E0663C81948EC880099D234 /* MYAudioTapProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0663BC1948EC880099D234 /* MYAudioTapProcessor.m */; };
-		0E0663C91948EC880099D234 /* MYGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0663BE1948EC880099D234 /* MYGradientView.m */; };
-		0E0663CA1948EC880099D234 /* MYPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0663C01948EC880099D234 /* MYPlayerView.m */; };
-		0E0663CB1948EC880099D234 /* MYSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0663C21948EC880099D234 /* MYSettingsViewController.m */; };
-		0E0663CC1948EC880099D234 /* MYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0663C41948EC880099D234 /* MYViewController.m */; };
-		0E0663CD1948EC880099D234 /* MYVolumeUnitMeterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0663C61948EC880099D234 /* MYVolumeUnitMeterView.m */; };
-		0EFD16591948EF6B0015A0EE /* PauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFD164B1948EF6B0015A0EE /* PauseButton.png */; };
-		0EFD165A1948EF6B0015A0EE /* PauseButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFD164C1948EF6B0015A0EE /* PauseButton@2x.png */; };
-		0EFD165B1948EF6B0015A0EE /* PlaybackControlsBarShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFD164D1948EF6B0015A0EE /* PlaybackControlsBarShadow.png */; };
-		0EFD165C1948EF6B0015A0EE /* PlaybackControlsBarShadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFD164E1948EF6B0015A0EE /* PlaybackControlsBarShadow@2x.png */; };
-		0EFD165D1948EF6B0015A0EE /* PlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFD164F1948EF6B0015A0EE /* PlayButton.png */; };
-		0EFD165E1948EF6B0015A0EE /* PlayButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFD16501948EF6B0015A0EE /* PlayButton@2x.png */; };
-		0EFD165F1948EF6B0015A0EE /* SettingsButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFD16511948EF6B0015A0EE /* SettingsButton.png */; };
-		0EFD16601948EF6B0015A0EE /* SettingsButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFD16521948EF6B0015A0EE /* SettingsButton@2x.png */; };
-		0EFD16611948EF6B0015A0EE /* VUMeterBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFD16531948EF6B0015A0EE /* VUMeterBackground.png */; };
-		0EFD16621948EF6B0015A0EE /* VUMeterBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFD16541948EF6B0015A0EE /* VUMeterBackground@2x.png */; };
-		0EFD16631948EF6B0015A0EE /* VUMeterForeground.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFD16551948EF6B0015A0EE /* VUMeterForeground.png */; };
-		0EFD16641948EF6B0015A0EE /* VUMeterForeground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFD16561948EF6B0015A0EE /* VUMeterForeground@2x.png */; };
-		0EFD16651948EF6B0015A0EE /* VUMeterNeedle.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFD16571948EF6B0015A0EE /* VUMeterNeedle.png */; };
-		0EFD16661948EF6B0015A0EE /* VUMeterNeedle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFD16581948EF6B0015A0EE /* VUMeterNeedle@2x.png */; };
+		0EF96D3A197068FB008719B9 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D1B197068FB008719B9 /* 1.jpg */; };
+		0EF96D3B197068FB008719B9 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D1C197068FB008719B9 /* 2.png */; };
+		0EF96D3C197068FB008719B9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D1F197068FB008719B9 /* Default-568h@2x.png */; };
+		0EF96D3D197068FB008719B9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D20197068FB008719B9 /* Default.png */; };
+		0EF96D3E197068FB008719B9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D21197068FB008719B9 /* Default@2x.png */; };
+		0EF96D3F197068FB008719B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D22197068FB008719B9 /* InfoPlist.strings */; };
+		0EF96D40197068FB008719B9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D24197068FB008719B9 /* MainStoryboard.storyboard */; };
+		0EF96D42197068FB008719B9 /* MPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF96D28197068FB008719B9 /* MPAppDelegate.m */; };
+		0EF96D43197068FB008719B9 /* MusicPlayer-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D29197068FB008719B9 /* MusicPlayer-Info.plist */; };
+		0EF96D44197068FB008719B9 /* MVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF96D2C197068FB008719B9 /* MVViewController.m */; };
+		0EF96D45197068FB008719B9 /* pause_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D2D197068FB008719B9 /* pause_button.png */; };
+		0EF96D46197068FB008719B9 /* pause_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D2E197068FB008719B9 /* pause_button@2x.png */; };
+		0EF96D47197068FB008719B9 /* play_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D2F197068FB008719B9 /* play_button.png */; };
+		0EF96D48197068FB008719B9 /* play_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D30197068FB008719B9 /* play_button@2x.png */; };
+		0EF96D49197068FB008719B9 /* MusicPlayer Resources.zip in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D34197068FB008719B9 /* MusicPlayer Resources.zip */; };
+		0EF96D4A197068FB008719B9 /* pause_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D35197068FB008719B9 /* pause_button.png */; };
+		0EF96D4B197068FB008719B9 /* pause_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D36197068FB008719B9 /* pause_button@2x.png */; };
+		0EF96D4C197068FB008719B9 /* photo.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D37197068FB008719B9 /* photo.PNG */; };
+		0EF96D4D197068FB008719B9 /* play_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D38197068FB008719B9 /* play_button.png */; };
+		0EF96D4E197068FB008719B9 /* play_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D39197068FB008719B9 /* play_button@2x.png */; };
+		0EF96D8719706B39008719B9 /* AudioTapProcessor-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D5419706B39008719B9 /* AudioTapProcessor-Info.plist */; };
+		0EF96D8819706B39008719B9 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D5619706B39008719B9 /* Default-Landscape.png */; };
+		0EF96D8919706B39008719B9 /* Default-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D5719706B39008719B9 /* Default-Landscape@2x.png */; };
+		0EF96D8A19706B39008719B9 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D5819706B39008719B9 /* Default-Portrait.png */; };
+		0EF96D8B19706B39008719B9 /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D5919706B39008719B9 /* Default-Portrait@2x.png */; };
+		0EF96D8C19706B39008719B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D5A19706B39008719B9 /* InfoPlist.strings */; };
+		0EF96D8D19706B39008719B9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D5C19706B39008719B9 /* MainStoryboard.storyboard */; };
+		0EF96D8E19706B39008719B9 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D5E19706B39008719B9 /* Icon-72.png */; };
+		0EF96D8F19706B39008719B9 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D5F19706B39008719B9 /* Icon-72@2x.png */; };
+		0EF96D9019706B39008719B9 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D6019706B39008719B9 /* Icon-Small-50.png */; };
+		0EF96D9119706B39008719B9 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D6119706B39008719B9 /* Icon-Small-50@2x.png */; };
+		0EF96D9219706B39008719B9 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D6219706B39008719B9 /* Icon-Small.png */; };
+		0EF96D9319706B39008719B9 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D6319706B39008719B9 /* Icon-Small@2x.png */; };
+		0EF96D9419706B39008719B9 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D6419706B39008719B9 /* iTunesArtwork.png */; };
+		0EF96D9519706B39008719B9 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D6519706B39008719B9 /* iTunesArtwork@2x.png */; };
+		0EF96D9719706B39008719B9 /* MYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF96D6819706B39008719B9 /* MYAppDelegate.m */; };
+		0EF96D9819706B39008719B9 /* MYAudioTapProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF96D6A19706B39008719B9 /* MYAudioTapProcessor.m */; };
+		0EF96D9919706B39008719B9 /* MYGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF96D6C19706B39008719B9 /* MYGradientView.m */; };
+		0EF96D9A19706B39008719B9 /* MYPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF96D6E19706B39008719B9 /* MYPlayerView.m */; };
+		0EF96D9B19706B39008719B9 /* MYSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF96D7019706B39008719B9 /* MYSettingsViewController.m */; };
+		0EF96D9C19706B39008719B9 /* MYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF96D7219706B39008719B9 /* MYViewController.m */; };
+		0EF96D9D19706B39008719B9 /* MYVolumeUnitMeterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF96D7419706B39008719B9 /* MYVolumeUnitMeterView.m */; };
+		0EF96D9E19706B39008719B9 /* PauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D7519706B39008719B9 /* PauseButton.png */; };
+		0EF96D9F19706B39008719B9 /* PauseButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D7619706B39008719B9 /* PauseButton@2x.png */; };
+		0EF96DA019706B39008719B9 /* PlaybackControlsBarShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D7719706B39008719B9 /* PlaybackControlsBarShadow.png */; };
+		0EF96DA119706B39008719B9 /* PlaybackControlsBarShadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D7819706B39008719B9 /* PlaybackControlsBarShadow@2x.png */; };
+		0EF96DA219706B39008719B9 /* PlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D7919706B39008719B9 /* PlayButton.png */; };
+		0EF96DA319706B39008719B9 /* PlayButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D7A19706B39008719B9 /* PlayButton@2x.png */; };
+		0EF96DA419706B39008719B9 /* SettingsButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D7B19706B39008719B9 /* SettingsButton.png */; };
+		0EF96DA519706B39008719B9 /* SettingsButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D7C19706B39008719B9 /* SettingsButton@2x.png */; };
+		0EF96DA619706B39008719B9 /* VUMeterBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D7D19706B39008719B9 /* VUMeterBackground.png */; };
+		0EF96DA719706B39008719B9 /* VUMeterBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D7E19706B39008719B9 /* VUMeterBackground@2x.png */; };
+		0EF96DA819706B39008719B9 /* VUMeterForeground.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D7F19706B39008719B9 /* VUMeterForeground.png */; };
+		0EF96DA919706B39008719B9 /* VUMeterForeground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D8019706B39008719B9 /* VUMeterForeground@2x.png */; };
+		0EF96DAA19706B39008719B9 /* VUMeterNeedle.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D8119706B39008719B9 /* VUMeterNeedle.png */; };
+		0EF96DAB19706B39008719B9 /* VUMeterNeedle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D8219706B39008719B9 /* VUMeterNeedle@2x.png */; };
+		0EF96DAC19706B39008719B9 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0EF96D8619706B39008719B9 /* ReadMe.txt */; };
 		321D21AC19197B620043C6E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321D21AB19197B620043C6E2 /* Foundation.framework */; };
 		321D21AE19197B620043C6E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321D21AD19197B620043C6E2 /* CoreGraphics.framework */; };
 		321D21B019197B620043C6E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321D21AF19197B620043C6E2 /* UIKit.framework */; };
@@ -45,6 +81,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0EF96D50197068FB008719B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EF96D31197068FB008719B9 /* MusicPlayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1855A2DE17401ECE002EB2C7;
+			remoteInfo = MusicPlayer;
+		};
+		0EF96DAE19706B39008719B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EF96D8319706B39008719B9 /* AudioTapProcessor.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A667BAEB1576BFDE00C3E77F;
+			remoteInfo = AudioTapProcessor;
+		};
 		321D21C819197B630043C6E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 321D21A019197B620043C6E2 /* Project object */;
@@ -55,34 +105,76 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E0663B91948EC880099D234 /* MYAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYAppDelegate.h; sourceTree = "<group>"; };
-		0E0663BA1948EC880099D234 /* MYAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYAppDelegate.m; sourceTree = "<group>"; };
-		0E0663BB1948EC880099D234 /* MYAudioTapProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYAudioTapProcessor.h; sourceTree = "<group>"; };
-		0E0663BC1948EC880099D234 /* MYAudioTapProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYAudioTapProcessor.m; sourceTree = "<group>"; };
-		0E0663BD1948EC880099D234 /* MYGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYGradientView.h; sourceTree = "<group>"; };
-		0E0663BE1948EC880099D234 /* MYGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYGradientView.m; sourceTree = "<group>"; };
-		0E0663BF1948EC880099D234 /* MYPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYPlayerView.h; sourceTree = "<group>"; };
-		0E0663C01948EC880099D234 /* MYPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYPlayerView.m; sourceTree = "<group>"; };
-		0E0663C11948EC880099D234 /* MYSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYSettingsViewController.h; sourceTree = "<group>"; };
-		0E0663C21948EC880099D234 /* MYSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYSettingsViewController.m; sourceTree = "<group>"; };
-		0E0663C31948EC880099D234 /* MYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYViewController.h; sourceTree = "<group>"; };
-		0E0663C41948EC880099D234 /* MYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYViewController.m; sourceTree = "<group>"; };
-		0E0663C51948EC880099D234 /* MYVolumeUnitMeterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYVolumeUnitMeterView.h; sourceTree = "<group>"; };
-		0E0663C61948EC880099D234 /* MYVolumeUnitMeterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYVolumeUnitMeterView.m; sourceTree = "<group>"; };
-		0EFD164B1948EF6B0015A0EE /* PauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PauseButton.png; sourceTree = "<group>"; };
-		0EFD164C1948EF6B0015A0EE /* PauseButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PauseButton@2x.png"; sourceTree = "<group>"; };
-		0EFD164D1948EF6B0015A0EE /* PlaybackControlsBarShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlaybackControlsBarShadow.png; sourceTree = "<group>"; };
-		0EFD164E1948EF6B0015A0EE /* PlaybackControlsBarShadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlaybackControlsBarShadow@2x.png"; sourceTree = "<group>"; };
-		0EFD164F1948EF6B0015A0EE /* PlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayButton.png; sourceTree = "<group>"; };
-		0EFD16501948EF6B0015A0EE /* PlayButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlayButton@2x.png"; sourceTree = "<group>"; };
-		0EFD16511948EF6B0015A0EE /* SettingsButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SettingsButton.png; sourceTree = "<group>"; };
-		0EFD16521948EF6B0015A0EE /* SettingsButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SettingsButton@2x.png"; sourceTree = "<group>"; };
-		0EFD16531948EF6B0015A0EE /* VUMeterBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VUMeterBackground.png; sourceTree = "<group>"; };
-		0EFD16541948EF6B0015A0EE /* VUMeterBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VUMeterBackground@2x.png"; sourceTree = "<group>"; };
-		0EFD16551948EF6B0015A0EE /* VUMeterForeground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VUMeterForeground.png; sourceTree = "<group>"; };
-		0EFD16561948EF6B0015A0EE /* VUMeterForeground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VUMeterForeground@2x.png"; sourceTree = "<group>"; };
-		0EFD16571948EF6B0015A0EE /* VUMeterNeedle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VUMeterNeedle.png; sourceTree = "<group>"; };
-		0EFD16581948EF6B0015A0EE /* VUMeterNeedle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VUMeterNeedle@2x.png"; sourceTree = "<group>"; };
+		0EF96D1B197068FB008719B9 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		0EF96D1C197068FB008719B9 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		0EF96D1F197068FB008719B9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0EF96D20197068FB008719B9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0EF96D21197068FB008719B9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0EF96D23197068FB008719B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0EF96D25197068FB008719B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0EF96D27197068FB008719B9 /* MPAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPAppDelegate.h; sourceTree = "<group>"; };
+		0EF96D28197068FB008719B9 /* MPAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPAppDelegate.m; sourceTree = "<group>"; };
+		0EF96D29197068FB008719B9 /* MusicPlayer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MusicPlayer-Info.plist"; sourceTree = "<group>"; };
+		0EF96D2A197068FB008719B9 /* MusicPlayer-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MusicPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		0EF96D2B197068FB008719B9 /* MVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVViewController.h; sourceTree = "<group>"; };
+		0EF96D2C197068FB008719B9 /* MVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVViewController.m; sourceTree = "<group>"; };
+		0EF96D2D197068FB008719B9 /* pause_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause_button.png; sourceTree = "<group>"; };
+		0EF96D2E197068FB008719B9 /* pause_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause_button@2x.png"; sourceTree = "<group>"; };
+		0EF96D2F197068FB008719B9 /* play_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_button.png; sourceTree = "<group>"; };
+		0EF96D30197068FB008719B9 /* play_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play_button@2x.png"; sourceTree = "<group>"; };
+		0EF96D31197068FB008719B9 /* MusicPlayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MusicPlayer.xcodeproj; sourceTree = "<group>"; };
+		0EF96D34197068FB008719B9 /* MusicPlayer Resources.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "MusicPlayer Resources.zip"; sourceTree = "<group>"; };
+		0EF96D35197068FB008719B9 /* pause_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause_button.png; sourceTree = "<group>"; };
+		0EF96D36197068FB008719B9 /* pause_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause_button@2x.png"; sourceTree = "<group>"; };
+		0EF96D37197068FB008719B9 /* photo.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.PNG; sourceTree = "<group>"; };
+		0EF96D38197068FB008719B9 /* play_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_button.png; sourceTree = "<group>"; };
+		0EF96D39197068FB008719B9 /* play_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play_button@2x.png"; sourceTree = "<group>"; };
+		0EF96D5419706B39008719B9 /* AudioTapProcessor-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AudioTapProcessor-Info.plist"; sourceTree = "<group>"; };
+		0EF96D5519706B39008719B9 /* AudioTapProcessor-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AudioTapProcessor-Prefix.pch"; sourceTree = "<group>"; };
+		0EF96D5619706B39008719B9 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
+		0EF96D5719706B39008719B9 /* Default-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x.png"; sourceTree = "<group>"; };
+		0EF96D5819706B39008719B9 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
+		0EF96D5919706B39008719B9 /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x.png"; sourceTree = "<group>"; };
+		0EF96D5B19706B39008719B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0EF96D5D19706B39008719B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0EF96D5E19706B39008719B9 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		0EF96D5F19706B39008719B9 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		0EF96D6019706B39008719B9 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		0EF96D6119706B39008719B9 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		0EF96D6219706B39008719B9 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		0EF96D6319706B39008719B9 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		0EF96D6419706B39008719B9 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		0EF96D6519706B39008719B9 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		0EF96D6719706B39008719B9 /* MYAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYAppDelegate.h; sourceTree = "<group>"; };
+		0EF96D6819706B39008719B9 /* MYAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYAppDelegate.m; sourceTree = "<group>"; };
+		0EF96D6919706B39008719B9 /* MYAudioTapProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYAudioTapProcessor.h; sourceTree = "<group>"; };
+		0EF96D6A19706B39008719B9 /* MYAudioTapProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYAudioTapProcessor.m; sourceTree = "<group>"; };
+		0EF96D6B19706B39008719B9 /* MYGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYGradientView.h; sourceTree = "<group>"; };
+		0EF96D6C19706B39008719B9 /* MYGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYGradientView.m; sourceTree = "<group>"; };
+		0EF96D6D19706B39008719B9 /* MYPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYPlayerView.h; sourceTree = "<group>"; };
+		0EF96D6E19706B39008719B9 /* MYPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYPlayerView.m; sourceTree = "<group>"; };
+		0EF96D6F19706B39008719B9 /* MYSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYSettingsViewController.h; sourceTree = "<group>"; };
+		0EF96D7019706B39008719B9 /* MYSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYSettingsViewController.m; sourceTree = "<group>"; };
+		0EF96D7119706B39008719B9 /* MYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYViewController.h; sourceTree = "<group>"; };
+		0EF96D7219706B39008719B9 /* MYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYViewController.m; sourceTree = "<group>"; };
+		0EF96D7319706B39008719B9 /* MYVolumeUnitMeterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYVolumeUnitMeterView.h; sourceTree = "<group>"; };
+		0EF96D7419706B39008719B9 /* MYVolumeUnitMeterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYVolumeUnitMeterView.m; sourceTree = "<group>"; };
+		0EF96D7519706B39008719B9 /* PauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PauseButton.png; sourceTree = "<group>"; };
+		0EF96D7619706B39008719B9 /* PauseButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PauseButton@2x.png"; sourceTree = "<group>"; };
+		0EF96D7719706B39008719B9 /* PlaybackControlsBarShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlaybackControlsBarShadow.png; sourceTree = "<group>"; };
+		0EF96D7819706B39008719B9 /* PlaybackControlsBarShadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlaybackControlsBarShadow@2x.png"; sourceTree = "<group>"; };
+		0EF96D7919706B39008719B9 /* PlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayButton.png; sourceTree = "<group>"; };
+		0EF96D7A19706B39008719B9 /* PlayButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlayButton@2x.png"; sourceTree = "<group>"; };
+		0EF96D7B19706B39008719B9 /* SettingsButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SettingsButton.png; sourceTree = "<group>"; };
+		0EF96D7C19706B39008719B9 /* SettingsButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SettingsButton@2x.png"; sourceTree = "<group>"; };
+		0EF96D7D19706B39008719B9 /* VUMeterBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VUMeterBackground.png; sourceTree = "<group>"; };
+		0EF96D7E19706B39008719B9 /* VUMeterBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VUMeterBackground@2x.png"; sourceTree = "<group>"; };
+		0EF96D7F19706B39008719B9 /* VUMeterForeground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VUMeterForeground.png; sourceTree = "<group>"; };
+		0EF96D8019706B39008719B9 /* VUMeterForeground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VUMeterForeground@2x.png"; sourceTree = "<group>"; };
+		0EF96D8119706B39008719B9 /* VUMeterNeedle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VUMeterNeedle.png; sourceTree = "<group>"; };
+		0EF96D8219706B39008719B9 /* VUMeterNeedle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VUMeterNeedle@2x.png"; sourceTree = "<group>"; };
+		0EF96D8319706B39008719B9 /* AudioTapProcessor.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = AudioTapProcessor.xcodeproj; sourceTree = "<group>"; };
+		0EF96D8619706B39008719B9 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
 		321D21A819197B620043C6E2 /* Runovation_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runovation_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		321D21AB19197B620043C6E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		321D21AD19197B620043C6E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -127,45 +219,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E919FC71948E9C1005DFB3F /* MediaPlayer (And RMS) */ = {
+		0EF96D1A197068FB008719B9 /* Custom Music Player */ = {
 			isa = PBXGroup;
 			children = (
-				0EFD164B1948EF6B0015A0EE /* PauseButton.png */,
-				0EFD164C1948EF6B0015A0EE /* PauseButton@2x.png */,
-				0EFD164D1948EF6B0015A0EE /* PlaybackControlsBarShadow.png */,
-				0EFD164E1948EF6B0015A0EE /* PlaybackControlsBarShadow@2x.png */,
-				0EFD164F1948EF6B0015A0EE /* PlayButton.png */,
-				0EFD16501948EF6B0015A0EE /* PlayButton@2x.png */,
-				0EFD16511948EF6B0015A0EE /* SettingsButton.png */,
-				0EFD16521948EF6B0015A0EE /* SettingsButton@2x.png */,
-				0EFD16531948EF6B0015A0EE /* VUMeterBackground.png */,
-				0EFD16541948EF6B0015A0EE /* VUMeterBackground@2x.png */,
-				0EFD16551948EF6B0015A0EE /* VUMeterForeground.png */,
-				0EFD16561948EF6B0015A0EE /* VUMeterForeground@2x.png */,
-				0EFD16571948EF6B0015A0EE /* VUMeterNeedle.png */,
-				0EFD16581948EF6B0015A0EE /* VUMeterNeedle@2x.png */,
-				0E0663B91948EC880099D234 /* MYAppDelegate.h */,
-				0E0663BA1948EC880099D234 /* MYAppDelegate.m */,
-				0E0663BB1948EC880099D234 /* MYAudioTapProcessor.h */,
-				0E0663BC1948EC880099D234 /* MYAudioTapProcessor.m */,
-				0E0663BD1948EC880099D234 /* MYGradientView.h */,
-				0E0663BE1948EC880099D234 /* MYGradientView.m */,
-				0E0663BF1948EC880099D234 /* MYPlayerView.h */,
-				0E0663C01948EC880099D234 /* MYPlayerView.m */,
-				0E0663C11948EC880099D234 /* MYSettingsViewController.h */,
-				0E0663C21948EC880099D234 /* MYSettingsViewController.m */,
-				0E0663C31948EC880099D234 /* MYViewController.h */,
-				0E0663C41948EC880099D234 /* MYViewController.m */,
-				0E0663C51948EC880099D234 /* MYVolumeUnitMeterView.h */,
-				0E0663C61948EC880099D234 /* MYVolumeUnitMeterView.m */,
+				0EF96D1B197068FB008719B9 /* 1.jpg */,
+				0EF96D1C197068FB008719B9 /* 2.png */,
+				0EF96D1D197068FB008719B9 /* MusicPlayer */,
+				0EF96D34197068FB008719B9 /* MusicPlayer Resources.zip */,
+				0EF96D35197068FB008719B9 /* pause_button.png */,
+				0EF96D36197068FB008719B9 /* pause_button@2x.png */,
+				0EF96D37197068FB008719B9 /* photo.PNG */,
+				0EF96D38197068FB008719B9 /* play_button.png */,
+				0EF96D39197068FB008719B9 /* play_button@2x.png */,
 			);
-			name = "MediaPlayer (And RMS)";
+			name = "Custom Music Player";
+			path = "../Custom Music Player";
+			sourceTree = "<group>";
+		};
+		0EF96D1D197068FB008719B9 /* MusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				0EF96D1E197068FB008719B9 /* MusicPlayer */,
+				0EF96D31197068FB008719B9 /* MusicPlayer.xcodeproj */,
+			);
+			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
+		0EF96D1E197068FB008719B9 /* MusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				0EF96D1F197068FB008719B9 /* Default-568h@2x.png */,
+				0EF96D20197068FB008719B9 /* Default.png */,
+				0EF96D21197068FB008719B9 /* Default@2x.png */,
+				0EF96D22197068FB008719B9 /* InfoPlist.strings */,
+				0EF96D24197068FB008719B9 /* MainStoryboard.storyboard */,
+				0EF96D27197068FB008719B9 /* MPAppDelegate.h */,
+				0EF96D28197068FB008719B9 /* MPAppDelegate.m */,
+				0EF96D29197068FB008719B9 /* MusicPlayer-Info.plist */,
+				0EF96D2A197068FB008719B9 /* MusicPlayer-Prefix.pch */,
+				0EF96D2B197068FB008719B9 /* MVViewController.h */,
+				0EF96D2C197068FB008719B9 /* MVViewController.m */,
+				0EF96D2D197068FB008719B9 /* pause_button.png */,
+				0EF96D2E197068FB008719B9 /* pause_button@2x.png */,
+				0EF96D2F197068FB008719B9 /* play_button.png */,
+				0EF96D30197068FB008719B9 /* play_button@2x.png */,
+			);
+			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
+		0EF96D32197068FB008719B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EF96D51197068FB008719B9 /* MusicPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EF96D5219706B39008719B9 /* AudioTapProcessor */ = {
+			isa = PBXGroup;
+			children = (
+				0EF96D5319706B39008719B9 /* AudioTapProcessor */,
+				0EF96D8319706B39008719B9 /* AudioTapProcessor.xcodeproj */,
+				0EF96D8619706B39008719B9 /* ReadMe.txt */,
+			);
+			name = AudioTapProcessor;
+			path = ../AudioTapProcessor;
+			sourceTree = "<group>";
+		};
+		0EF96D5319706B39008719B9 /* AudioTapProcessor */ = {
+			isa = PBXGroup;
+			children = (
+				0EF96D5419706B39008719B9 /* AudioTapProcessor-Info.plist */,
+				0EF96D5519706B39008719B9 /* AudioTapProcessor-Prefix.pch */,
+				0EF96D5619706B39008719B9 /* Default-Landscape.png */,
+				0EF96D5719706B39008719B9 /* Default-Landscape@2x.png */,
+				0EF96D5819706B39008719B9 /* Default-Portrait.png */,
+				0EF96D5919706B39008719B9 /* Default-Portrait@2x.png */,
+				0EF96D5A19706B39008719B9 /* InfoPlist.strings */,
+				0EF96D5C19706B39008719B9 /* MainStoryboard.storyboard */,
+				0EF96D5E19706B39008719B9 /* Icon-72.png */,
+				0EF96D5F19706B39008719B9 /* Icon-72@2x.png */,
+				0EF96D6019706B39008719B9 /* Icon-Small-50.png */,
+				0EF96D6119706B39008719B9 /* Icon-Small-50@2x.png */,
+				0EF96D6219706B39008719B9 /* Icon-Small.png */,
+				0EF96D6319706B39008719B9 /* Icon-Small@2x.png */,
+				0EF96D6419706B39008719B9 /* iTunesArtwork.png */,
+				0EF96D6519706B39008719B9 /* iTunesArtwork@2x.png */,
+				0EF96D6719706B39008719B9 /* MYAppDelegate.h */,
+				0EF96D6819706B39008719B9 /* MYAppDelegate.m */,
+				0EF96D6919706B39008719B9 /* MYAudioTapProcessor.h */,
+				0EF96D6A19706B39008719B9 /* MYAudioTapProcessor.m */,
+				0EF96D6B19706B39008719B9 /* MYGradientView.h */,
+				0EF96D6C19706B39008719B9 /* MYGradientView.m */,
+				0EF96D6D19706B39008719B9 /* MYPlayerView.h */,
+				0EF96D6E19706B39008719B9 /* MYPlayerView.m */,
+				0EF96D6F19706B39008719B9 /* MYSettingsViewController.h */,
+				0EF96D7019706B39008719B9 /* MYSettingsViewController.m */,
+				0EF96D7119706B39008719B9 /* MYViewController.h */,
+				0EF96D7219706B39008719B9 /* MYViewController.m */,
+				0EF96D7319706B39008719B9 /* MYVolumeUnitMeterView.h */,
+				0EF96D7419706B39008719B9 /* MYVolumeUnitMeterView.m */,
+				0EF96D7519706B39008719B9 /* PauseButton.png */,
+				0EF96D7619706B39008719B9 /* PauseButton@2x.png */,
+				0EF96D7719706B39008719B9 /* PlaybackControlsBarShadow.png */,
+				0EF96D7819706B39008719B9 /* PlaybackControlsBarShadow@2x.png */,
+				0EF96D7919706B39008719B9 /* PlayButton.png */,
+				0EF96D7A19706B39008719B9 /* PlayButton@2x.png */,
+				0EF96D7B19706B39008719B9 /* SettingsButton.png */,
+				0EF96D7C19706B39008719B9 /* SettingsButton@2x.png */,
+				0EF96D7D19706B39008719B9 /* VUMeterBackground.png */,
+				0EF96D7E19706B39008719B9 /* VUMeterBackground@2x.png */,
+				0EF96D7F19706B39008719B9 /* VUMeterForeground.png */,
+				0EF96D8019706B39008719B9 /* VUMeterForeground@2x.png */,
+				0EF96D8119706B39008719B9 /* VUMeterNeedle.png */,
+				0EF96D8219706B39008719B9 /* VUMeterNeedle@2x.png */,
+			);
+			path = AudioTapProcessor;
+			sourceTree = "<group>";
+		};
+		0EF96D8419706B39008719B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EF96DAF19706B39008719B9 /* AudioTapProcessor.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		321D219F19197B620043C6E2 = {
 			isa = PBXGroup;
 			children = (
-				0E919FC71948E9C1005DFB3F /* MediaPlayer (And RMS) */,
+				0EF96D5219706B39008719B9 /* AudioTapProcessor */,
+				0EF96D1A197068FB008719B9 /* Custom Music Player */,
 				321D21B119197B620043C6E2 /* Runovation_iOS */,
 				321D21CA19197B630043C6E2 /* Runovation_iOSTests */,
 				321D21AA19197B620043C6E2 /* Frameworks */,
@@ -300,6 +484,16 @@
 			mainGroup = 321D219F19197B620043C6E2;
 			productRefGroup = 321D21A919197B620043C6E2 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0EF96D8419706B39008719B9 /* Products */;
+					ProjectRef = 0EF96D8319706B39008719B9 /* AudioTapProcessor.xcodeproj */;
+				},
+				{
+					ProductGroup = 0EF96D32197068FB008719B9 /* Products */;
+					ProjectRef = 0EF96D31197068FB008719B9 /* MusicPlayer.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				321D21A719197B620043C6E2 /* Runovation_iOS */,
@@ -308,29 +502,80 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		0EF96D51197068FB008719B9 /* MusicPlayer.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = MusicPlayer.app;
+			remoteRef = 0EF96D50197068FB008719B9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0EF96DAF19706B39008719B9 /* AudioTapProcessor.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = AudioTapProcessor.app;
+			remoteRef = 0EF96DAE19706B39008719B9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		321D21A619197B620043C6E2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EFD16611948EF6B0015A0EE /* VUMeterBackground.png in Resources */,
-				0EFD16651948EF6B0015A0EE /* VUMeterNeedle.png in Resources */,
-				0EFD165E1948EF6B0015A0EE /* PlayButton@2x.png in Resources */,
+				0EF96D4E197068FB008719B9 /* play_button@2x.png in Resources */,
+				0EF96D8C19706B39008719B9 /* InfoPlist.strings in Resources */,
+				0EF96D8D19706B39008719B9 /* MainStoryboard.storyboard in Resources */,
+				0EF96D48197068FB008719B9 /* play_button@2x.png in Resources */,
+				0EF96D9E19706B39008719B9 /* PauseButton.png in Resources */,
+				0EF96D8719706B39008719B9 /* AudioTapProcessor-Info.plist in Resources */,
+				0EF96DA419706B39008719B9 /* SettingsButton.png in Resources */,
+				0EF96D9019706B39008719B9 /* Icon-Small-50.png in Resources */,
+				0EF96D9419706B39008719B9 /* iTunesArtwork.png in Resources */,
+				0EF96DAA19706B39008719B9 /* VUMeterNeedle.png in Resources */,
+				0EF96D4D197068FB008719B9 /* play_button.png in Resources */,
+				0EF96DA719706B39008719B9 /* VUMeterBackground@2x.png in Resources */,
+				0EF96DA819706B39008719B9 /* VUMeterForeground.png in Resources */,
+				0EF96DA619706B39008719B9 /* VUMeterBackground.png in Resources */,
+				0EF96D3F197068FB008719B9 /* InfoPlist.strings in Resources */,
+				0EF96DA519706B39008719B9 /* SettingsButton@2x.png in Resources */,
+				0EF96D8819706B39008719B9 /* Default-Landscape.png in Resources */,
+				0EF96D3A197068FB008719B9 /* 1.jpg in Resources */,
+				0EF96D9219706B39008719B9 /* Icon-Small.png in Resources */,
+				0EF96D3B197068FB008719B9 /* 2.png in Resources */,
+				0EF96DA019706B39008719B9 /* PlaybackControlsBarShadow.png in Resources */,
+				0EF96D43197068FB008719B9 /* MusicPlayer-Info.plist in Resources */,
+				0EF96D9319706B39008719B9 /* Icon-Small@2x.png in Resources */,
+				0EF96D9519706B39008719B9 /* iTunesArtwork@2x.png in Resources */,
+				0EF96D8E19706B39008719B9 /* Icon-72.png in Resources */,
+				0EF96D3C197068FB008719B9 /* Default-568h@2x.png in Resources */,
+				0EF96DAC19706B39008719B9 /* ReadMe.txt in Resources */,
+				0EF96D3E197068FB008719B9 /* Default@2x.png in Resources */,
 				321D21DB19197B7D0043C6E2 /* Main.storyboard in Resources */,
+				0EF96D8B19706B39008719B9 /* Default-Portrait@2x.png in Resources */,
+				0EF96D8A19706B39008719B9 /* Default-Portrait.png in Resources */,
 				321D21B619197B620043C6E2 /* InfoPlist.strings in Resources */,
-				0EFD16591948EF6B0015A0EE /* PauseButton.png in Resources */,
-				0EFD165B1948EF6B0015A0EE /* PlaybackControlsBarShadow.png in Resources */,
-				0EFD165A1948EF6B0015A0EE /* PauseButton@2x.png in Resources */,
-				0EFD16621948EF6B0015A0EE /* VUMeterBackground@2x.png in Resources */,
-				0EFD16641948EF6B0015A0EE /* VUMeterForeground@2x.png in Resources */,
-				0EFD165F1948EF6B0015A0EE /* SettingsButton.png in Resources */,
+				0EF96D49197068FB008719B9 /* MusicPlayer Resources.zip in Resources */,
+				0EF96D40197068FB008719B9 /* MainStoryboard.storyboard in Resources */,
+				0EF96DA219706B39008719B9 /* PlayButton.png in Resources */,
+				0EF96D9119706B39008719B9 /* Icon-Small-50@2x.png in Resources */,
+				0EF96D4B197068FB008719B9 /* pause_button@2x.png in Resources */,
 				321D21BE19197B620043C6E2 /* Images.xcassets in Resources */,
-				0EFD16661948EF6B0015A0EE /* VUMeterNeedle@2x.png in Resources */,
-				0EFD165D1948EF6B0015A0EE /* PlayButton.png in Resources */,
-				0EFD165C1948EF6B0015A0EE /* PlaybackControlsBarShadow@2x.png in Resources */,
 				32C4FFBE1919D2FD00B8FC4C /* Default.png in Resources */,
-				0EFD16601948EF6B0015A0EE /* SettingsButton@2x.png in Resources */,
-				0EFD16631948EF6B0015A0EE /* VUMeterForeground.png in Resources */,
+				0EF96D4C197068FB008719B9 /* photo.PNG in Resources */,
+				0EF96D45197068FB008719B9 /* pause_button.png in Resources */,
+				0EF96D47197068FB008719B9 /* play_button.png in Resources */,
+				0EF96D9F19706B39008719B9 /* PauseButton@2x.png in Resources */,
+				0EF96DAB19706B39008719B9 /* VUMeterNeedle@2x.png in Resources */,
+				0EF96D4A197068FB008719B9 /* pause_button.png in Resources */,
+				0EF96DA119706B39008719B9 /* PlaybackControlsBarShadow@2x.png in Resources */,
+				0EF96DA919706B39008719B9 /* VUMeterForeground@2x.png in Resources */,
+				0EF96D46197068FB008719B9 /* pause_button@2x.png in Resources */,
+				0EF96D8F19706B39008719B9 /* Icon-72@2x.png in Resources */,
+				0EF96D8919706B39008719B9 /* Default-Landscape@2x.png in Resources */,
+				0EF96D3D197068FB008719B9 /* Default.png in Resources */,
+				0EF96DA319706B39008719B9 /* PlayButton@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,15 +594,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E0663C71948EC880099D234 /* MYAppDelegate.m in Sources */,
-				0E0663CD1948EC880099D234 /* MYVolumeUnitMeterView.m in Sources */,
-				0E0663C81948EC880099D234 /* MYAudioTapProcessor.m in Sources */,
-				0E0663CC1948EC880099D234 /* MYViewController.m in Sources */,
-				0E0663C91948EC880099D234 /* MYGradientView.m in Sources */,
+				0EF96D9719706B39008719B9 /* MYAppDelegate.m in Sources */,
+				0EF96D9919706B39008719B9 /* MYGradientView.m in Sources */,
+				0EF96D9B19706B39008719B9 /* MYSettingsViewController.m in Sources */,
+				0EF96D9D19706B39008719B9 /* MYVolumeUnitMeterView.m in Sources */,
 				321D21BC19197B620043C6E2 /* AppDelegate.m in Sources */,
+				0EF96D44197068FB008719B9 /* MVViewController.m in Sources */,
+				0EF96D9819706B39008719B9 /* MYAudioTapProcessor.m in Sources */,
+				0EF96D42197068FB008719B9 /* MPAppDelegate.m in Sources */,
 				321D21B819197B620043C6E2 /* main.m in Sources */,
-				0E0663CA1948EC880099D234 /* MYPlayerView.m in Sources */,
-				0E0663CB1948EC880099D234 /* MYSettingsViewController.m in Sources */,
+				0EF96D9A19706B39008719B9 /* MYPlayerView.m in Sources */,
+				0EF96D9C19706B39008719B9 /* MYViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +627,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		0EF96D22197068FB008719B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EF96D23197068FB008719B9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0EF96D24197068FB008719B9 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EF96D25197068FB008719B9 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		0EF96D5A19706B39008719B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EF96D5B19706B39008719B9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0EF96D5C19706B39008719B9 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EF96D5D19706B39008719B9 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
 		321D21B419197B620043C6E2 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
